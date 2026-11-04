@@ -1,0 +1,143 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "CoWorkSpace" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+      - generic [ref=e12]:
+        - link "Spaces" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost:8000/spaces
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: http://localhost:8000/pricing
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: http://localhost:8000/about
+        - link "Blog" [ref=e16] [cursor=pointer]:
+          - /url: http://localhost:8000/blog
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: http://localhost:8000/contact
+        - button "Toggle dark mode" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Sign In" [ref=e21] [cursor=pointer]:
+          - /url: http://localhost:8000/login
+        - link "Get Started" [ref=e22] [cursor=pointer]:
+          - /url: http://localhost:8000/register
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: Our Story
+        - heading "About CoWorkSpace" [level=1] [ref=e31]
+        - paragraph [ref=e32]: We are on a mission to create the best work environments for teams and individuals around the world.
+      - generic [ref=e35]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: Our Story
+          - heading "From a simple idea to a global community" [level=2] [ref=e39]
+          - generic [ref=e40]:
+            - paragraph [ref=e41]: "CoWorkSpace was born from a simple idea: work should be inspiring. Founded in 2018, we started with a single location and a handful of passionate members who believed in the power of community-driven workspaces."
+            - paragraph [ref=e42]: Today, we operate across multiple cities, serving thousands of members from freelancers and startups to enterprise teams. Every space we design is crafted to foster creativity, productivity, and genuine human connection.
+            - paragraph [ref=e43]: We believe the future of work is flexible, collaborative, and human-centered. Our spaces reflect that philosophy with thoughtful design, premium amenities, and vibrant communities.
+        - generic [ref=e46]:
+          - img [ref=e47]
+          - paragraph [ref=e49]: Premium coworking spaces
+      - generic [ref=e51]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: Team
+          - heading "Meet our team" [level=2] [ref=e55]
+          - paragraph [ref=e56]: The passionate people behind CoWorkSpace.
+        - generic [ref=e57]:
+          - generic [ref=e59]:
+            - generic [ref=e60]: SC
+            - heading "Sarah Chen" [level=3] [ref=e61]
+            - paragraph [ref=e62]: Founder & CEO
+            - paragraph [ref=e63]: Visionary leader with 15 years in the coworking industry.
+          - generic [ref=e65]:
+            - generic [ref=e66]: MJ
+            - heading "Marcus Johnson" [level=3] [ref=e67]
+            - paragraph [ref=e68]: Head of Operations
+            - paragraph [ref=e69]: Ensures every space runs smoothly and efficiently.
+          - generic [ref=e71]:
+            - generic [ref=e72]: ER
+            - heading "Emily Rodriguez" [level=3] [ref=e73]
+            - paragraph [ref=e74]: Community Manager
+            - paragraph [ref=e75]: Builds and nurtures our vibrant member community.
+          - generic [ref=e77]:
+            - generic [ref=e78]: DK
+            - heading "David Kim" [level=3] [ref=e79]
+            - paragraph [ref=e80]: Head of Design
+            - paragraph [ref=e81]: Creates inspiring and functional workspace designs.
+      - generic [ref=e83]:
+        - generic [ref=e85]:
+          - generic [ref=e86]: Timeline
+          - heading "Our journey" [level=2] [ref=e87]
+          - paragraph [ref=e88]: Key milestones that shaped CoWorkSpace.
+        - generic [ref=e91]:
+          - generic [ref=e95]:
+            - text: "2018"
+            - heading "Founded" [level=3] [ref=e96]
+            - paragraph [ref=e97]: CoWorkSpace opened its first location in downtown Tech City with just 20 desks.
+          - generic [ref=e101]:
+            - text: "2019"
+            - heading "Expansion" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Opened two new locations and reached 500 members across the city.
+          - generic [ref=e107]:
+            - text: "2020"
+            - heading "Community Growth" [level=3] [ref=e108]
+            - paragraph [ref=e109]: Launched virtual memberships and grew our community to 2,000 members.
+          - generic [ref=e113]:
+            - text: "2021"
+            - heading "National Reach" [level=3] [ref=e114]
+            - paragraph [ref=e115]: Expanded to 5 cities with 12 locations nationwide.
+          - generic [ref=e119]:
+            - text: "2023"
+            - heading "Innovation Hub" [level=3] [ref=e120]
+            - paragraph [ref=e121]: Launched our innovation lab program, partnering with startups and investors.
+          - generic [ref=e125]:
+            - text: "2024"
+            - heading "Global Vision" [level=3] [ref=e126]
+            - paragraph [ref=e127]: Announced international expansion with locations in Europe and Asia.
+  - contentinfo [ref=e128]:
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - img [ref=e134]
+            - generic [ref=e136]: CoWorkSpace
+          - paragraph [ref=e137]: Modern coworking spaces designed for productivity, connection, and growth. Join a community of innovators.
+          - generic [ref=e138]:
+            - img [ref=e140] [cursor=pointer]
+            - img [ref=e143] [cursor=pointer]
+            - img [ref=e146] [cursor=pointer]
+        - generic [ref=e148]:
+          - heading "Quick Links" [level=4] [ref=e149]
+          - generic [ref=e150]:
+            - link "Spaces" [ref=e151] [cursor=pointer]:
+              - /url: http://localhost:8000/spaces
+            - link "Pricing" [ref=e152] [cursor=pointer]:
+              - /url: http://localhost:8000/pricing
+            - link "About" [ref=e153] [cursor=pointer]:
+              - /url: http://localhost:8000/about
+            - link "Blog" [ref=e154] [cursor=pointer]:
+              - /url: http://localhost:8000/blog
+        - generic [ref=e155]:
+          - heading "Support" [level=4] [ref=e156]
+          - generic [ref=e157]:
+            - link "Contact" [ref=e158] [cursor=pointer]:
+              - /url: http://localhost:8000/contact
+            - generic [ref=e159]: FAQs
+            - generic [ref=e160]: Privacy Policy
+            - generic [ref=e161]: Terms of Service
+        - generic [ref=e162]:
+          - heading "Contact" [level=4] [ref=e163]
+          - generic [ref=e164]:
+            - paragraph [ref=e165]:
+              - img [ref=e166]
+              - text: hello@coworkspace.com
+            - paragraph [ref=e168]:
+              - img [ref=e169]
+              - text: +1 (555) 123-4567
+            - paragraph [ref=e171]:
+              - img [ref=e172]
+              - text: 123 Innovation St, Tech City
+      - generic [ref=e175]:
+        - paragraph [ref=e176]: © 2026 CoWorkSpace. All rights reserved.
+        - paragraph [ref=e177]: Crafted with care

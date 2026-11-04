@@ -1,0 +1,107 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "CoWorkSpace" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+      - generic [ref=e12]:
+        - link "Spaces" [ref=e13] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spaces
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/pricing
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+        - link "Blog" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/contact
+        - button "Toggle dark mode" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Sign In" [ref=e21] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+        - link "Get Started" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/register
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: Contact
+        - heading "Get in touch" [level=1] [ref=e31]
+        - paragraph [ref=e32]: Have a question or want to book a tour? We would love to hear from you.
+      - generic [ref=e35]:
+        - generic [ref=e38]:
+          - heading "Send us a message" [level=2] [ref=e39]
+          - generic [ref=e41]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: Full Name
+              - textbox "John Doe" [ref=e45]
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - generic [ref=e49]: Email Address
+                - textbox "john@example.com" [ref=e50]
+              - generic [ref=e51]:
+                - generic [ref=e52]: Phone Number
+                - textbox "+1 (555) 123-4567" [ref=e53]
+            - generic [ref=e55]:
+              - generic [ref=e56]: Message
+              - textbox "Tell us how we can help..." [ref=e57]
+            - button "Send Message" [ref=e59] [cursor=pointer]
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - img [ref=e65]
+            - heading "Email Us" [level=3] [ref=e67]
+            - paragraph [ref=e68]: hello@coworkspace.com
+          - generic [ref=e69]:
+            - img [ref=e71]
+            - heading "Call Us" [level=3] [ref=e73]
+            - paragraph [ref=e74]: +1 (555) 123-4567
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - heading "Visit Us" [level=3] [ref=e80]
+            - paragraph [ref=e81]: 123 Innovation St, Tech City
+  - contentinfo [ref=e82]:
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - img [ref=e88]
+            - generic [ref=e90]: CoWorkSpace
+          - paragraph [ref=e91]: Modern coworking spaces designed for productivity, connection, and growth. Join a community of innovators.
+          - generic [ref=e92]:
+            - img [ref=e94] [cursor=pointer]
+            - img [ref=e97] [cursor=pointer]
+            - img [ref=e100] [cursor=pointer]
+        - generic [ref=e102]:
+          - heading "Quick Links" [level=4] [ref=e103]
+          - generic [ref=e104]:
+            - link "Spaces" [ref=e105] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/spaces
+            - link "Pricing" [ref=e106] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/pricing
+            - link "About" [ref=e107] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/about
+            - link "Blog" [ref=e108] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog
+        - generic [ref=e109]:
+          - heading "Support" [level=4] [ref=e110]
+          - generic [ref=e111]:
+            - link "Contact" [ref=e112] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/contact
+            - generic [ref=e113]: FAQs
+            - generic [ref=e114]: Privacy Policy
+            - generic [ref=e115]: Terms of Service
+        - generic [ref=e116]:
+          - heading "Contact" [level=4] [ref=e117]
+          - generic [ref=e118]:
+            - paragraph [ref=e119]:
+              - img [ref=e120]
+              - text: hello@coworkspace.com
+            - paragraph [ref=e122]:
+              - img [ref=e123]
+              - text: +1 (555) 123-4567
+            - paragraph [ref=e125]:
+              - img [ref=e126]
+              - text: 123 Innovation St, Tech City
+      - generic [ref=e129]:
+        - paragraph [ref=e130]: © 2026 CoWorkSpace. All rights reserved.
+        - paragraph [ref=e131]: Crafted with care

@@ -1,0 +1,63 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "CoWorkSpace Admin" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+        - generic [ref=e12]: Admin
+      - generic [ref=e13]:
+        - button "Toggle dark mode" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+        - link "View Site" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+          - text: View Site
+        - generic [ref=e20]:
+          - generic [ref=e21]: A
+          - generic [ref=e22]: Admin
+          - button [ref=e23] [cursor=pointer]:
+            - img [ref=e24]
+  - complementary [ref=e26]:
+    - navigation [ref=e27]:
+      - link "Dashboard" [ref=e28] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin
+        - img [ref=e29]
+        - text: Dashboard
+      - link "Spaces" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/spaces
+        - img [ref=e32]
+        - text: Spaces
+      - link "Bookings" [ref=e34] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/bookings
+        - img [ref=e35]
+        - text: Bookings
+      - link "Users" [ref=e37] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/users
+        - img [ref=e38]
+        - text: Users
+      - link "Blog" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog
+        - img [ref=e41]
+        - text: Blog
+      - link "Contacts" [ref=e43] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/contacts
+        - img [ref=e44]
+        - text: Contacts
+  - main [ref=e46]:
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - heading "Contact Inquiries" [level=1] [ref=e51]
+        - paragraph [ref=e52]: View messages from visitors.
+      - table [ref=e55]:
+        - rowgroup [ref=e56]:
+          - row "Name Email Message Status Date Actions" [ref=e57]:
+            - columnheader "Name" [ref=e58]
+            - columnheader "Email" [ref=e59]
+            - columnheader "Message" [ref=e60]
+            - columnheader "Status" [ref=e61]
+            - columnheader "Date" [ref=e62]
+            - columnheader "Actions" [ref=e63]
+        - rowgroup [ref=e64]:
+          - row "No inquiries found." [ref=e65]:
+            - cell "No inquiries found." [ref=e66]

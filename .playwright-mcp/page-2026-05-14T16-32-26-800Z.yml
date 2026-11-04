@@ -1,0 +1,235 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "CoWorkSpace Admin" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+        - generic [ref=e12]: Admin
+      - generic [ref=e13]:
+        - button "Toggle dark mode" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+        - link "View Site" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+          - text: View Site
+        - generic [ref=e20]:
+          - generic [ref=e21]: A
+          - generic [ref=e22]: Admin
+          - button [ref=e23] [cursor=pointer]:
+            - img [ref=e24]
+  - complementary [ref=e26]:
+    - navigation [ref=e27]:
+      - link "Dashboard" [ref=e28] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin
+        - img [ref=e29]
+        - text: Dashboard
+      - link "Spaces" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/spaces
+        - img [ref=e32]
+        - text: Spaces
+      - link "Bookings" [ref=e34] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/bookings
+        - img [ref=e35]
+        - text: Bookings
+      - link "Users" [ref=e37] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/users
+        - img [ref=e38]
+        - text: Users
+      - link "Blog" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog
+        - img [ref=e41]
+        - text: Blog
+      - link "Contacts" [ref=e43] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/contacts
+        - img [ref=e44]
+        - text: Contacts
+  - main [ref=e46]:
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - heading "Bookings" [level=1] [ref=e50]
+        - paragraph [ref=e51]: Manage all bookings across spaces.
+      - table [ref=e54]:
+        - rowgroup [ref=e55]:
+          - row "User Space Start Date End Date Total Status Actions" [ref=e56]:
+            - columnheader "User" [ref=e57]
+            - columnheader "Space" [ref=e58]
+            - columnheader "Start Date" [ref=e59]
+            - columnheader "End Date" [ref=e60]
+            - columnheader "Total" [ref=e61]
+            - columnheader "Status" [ref=e62]
+            - columnheader "Actions" [ref=e63]
+        - rowgroup [ref=e64]:
+          - row "Member amet voluptas voluptatibus 2026-05-15T00:00:00.000000Z 2026-05-16T00:00:00.000000Z $78.14 cancelled Cancelled Delete" [ref=e65]:
+            - cell "Member" [ref=e66]
+            - cell "amet voluptas voluptatibus" [ref=e67]
+            - cell "2026-05-15T00:00:00.000000Z" [ref=e68]
+            - cell "2026-05-16T00:00:00.000000Z" [ref=e69]
+            - cell "$78.14" [ref=e70]
+            - cell "cancelled" [ref=e71]:
+              - generic [ref=e72]: cancelled
+            - cell "Cancelled Delete" [ref=e73]:
+              - generic [ref=e74]:
+                - combobox [ref=e75]:
+                  - option "Pending"
+                  - option "Confirmed"
+                  - option "Cancelled" [selected]
+                  - option "Completed"
+                - button "Delete" [ref=e76] [cursor=pointer]
+          - row "Member sit incidunt minus 2026-05-19T00:00:00.000000Z 2026-05-22T00:00:00.000000Z $301.83 cancelled Cancelled Delete" [ref=e77]:
+            - cell "Member" [ref=e78]
+            - cell "sit incidunt minus" [ref=e79]
+            - cell "2026-05-19T00:00:00.000000Z" [ref=e80]
+            - cell "2026-05-22T00:00:00.000000Z" [ref=e81]
+            - cell "$301.83" [ref=e82]
+            - cell "cancelled" [ref=e83]:
+              - generic [ref=e84]: cancelled
+            - cell "Cancelled Delete" [ref=e85]:
+              - generic [ref=e86]:
+                - combobox [ref=e87]:
+                  - option "Pending"
+                  - option "Confirmed"
+                  - option "Cancelled" [selected]
+                  - option "Completed"
+                - button "Delete" [ref=e88] [cursor=pointer]
+          - row "Member sit incidunt minus 2026-05-18T00:00:00.000000Z 2026-05-19T00:00:00.000000Z $100.61 cancelled Cancelled Delete" [ref=e89]:
+            - cell "Member" [ref=e90]
+            - cell "sit incidunt minus" [ref=e91]
+            - cell "2026-05-18T00:00:00.000000Z" [ref=e92]
+            - cell "2026-05-19T00:00:00.000000Z" [ref=e93]
+            - cell "$100.61" [ref=e94]
+            - cell "cancelled" [ref=e95]:
+              - generic [ref=e96]: cancelled
+            - cell "Cancelled Delete" [ref=e97]:
+              - generic [ref=e98]:
+                - combobox [ref=e99]:
+                  - option "Pending"
+                  - option "Confirmed"
+                  - option "Cancelled" [selected]
+                  - option "Completed"
+                - button "Delete" [ref=e100] [cursor=pointer]
+          - row "Member aspernatur natus aut 2026-05-27T00:00:00.000000Z 2026-05-31T00:00:00.000000Z $153.40 cancelled Cancelled Delete" [ref=e101]:
+            - cell "Member" [ref=e102]
+            - cell "aspernatur natus aut" [ref=e103]
+            - cell "2026-05-27T00:00:00.000000Z" [ref=e104]
+            - cell "2026-05-31T00:00:00.000000Z" [ref=e105]
+            - cell "$153.40" [ref=e106]
+            - cell "cancelled" [ref=e107]:
+              - generic [ref=e108]: cancelled
+            - cell "Cancelled Delete" [ref=e109]:
+              - generic [ref=e110]:
+                - combobox [ref=e111]:
+                  - option "Pending"
+                  - option "Confirmed"
+                  - option "Cancelled" [selected]
+                  - option "Completed"
+                - button "Delete" [ref=e112] [cursor=pointer]
+          - row "Member aspernatur natus aut 2026-05-20T00:00:00.000000Z 2026-05-28T00:00:00.000000Z $306.80 cancelled Cancelled Delete" [ref=e113]:
+            - cell "Member" [ref=e114]
+            - cell "aspernatur natus aut" [ref=e115]
+            - cell "2026-05-20T00:00:00.000000Z" [ref=e116]
+            - cell "2026-05-28T00:00:00.000000Z" [ref=e117]
+            - cell "$306.80" [ref=e118]
+            - cell "cancelled" [ref=e119]:
+              - generic [ref=e120]: cancelled
+            - cell "Cancelled Delete" [ref=e121]:
+              - generic [ref=e122]:
+                - combobox [ref=e123]:
+                  - option "Pending"
+                  - option "Confirmed"
+                  - option "Cancelled" [selected]
+                  - option "Completed"
+                - button "Delete" [ref=e124] [cursor=pointer]
+          - row "Member sit incidunt minus 2026-05-22T00:00:00.000000Z 2026-05-25T00:00:00.000000Z $301.83 cancelled Cancelled Delete" [ref=e125]:
+            - cell "Member" [ref=e126]
+            - cell "sit incidunt minus" [ref=e127]
+            - cell "2026-05-22T00:00:00.000000Z" [ref=e128]
+            - cell "2026-05-25T00:00:00.000000Z" [ref=e129]
+            - cell "$301.83" [ref=e130]
+            - cell "cancelled" [ref=e131]:
+              - generic [ref=e132]: cancelled
+            - cell "Cancelled Delete" [ref=e133]:
+              - generic [ref=e134]:
+                - combobox [ref=e135]:
+                  - option "Pending"
+                  - option "Confirmed"
+                  - option "Cancelled" [selected]
+                  - option "Completed"
+                - button "Delete" [ref=e136] [cursor=pointer]
+          - row "Member qui quis minus 2026-05-19T00:00:00.000000Z 2026-05-21T00:00:00.000000Z $169.42 cancelled Cancelled Delete" [ref=e137]:
+            - cell "Member" [ref=e138]
+            - cell "qui quis minus" [ref=e139]
+            - cell "2026-05-19T00:00:00.000000Z" [ref=e140]
+            - cell "2026-05-21T00:00:00.000000Z" [ref=e141]
+            - cell "$169.42" [ref=e142]
+            - cell "cancelled" [ref=e143]:
+              - generic [ref=e144]: cancelled
+            - cell "Cancelled Delete" [ref=e145]:
+              - generic [ref=e146]:
+                - combobox [ref=e147]:
+                  - option "Pending"
+                  - option "Confirmed"
+                  - option "Cancelled" [selected]
+                  - option "Completed"
+                - button "Delete" [ref=e148] [cursor=pointer]
+          - row "Member sit incidunt minus 2026-05-15T00:00:00.000000Z 2026-05-16T00:00:00.000000Z $100.61 cancelled Cancelled Delete" [ref=e149]:
+            - cell "Member" [ref=e150]
+            - cell "sit incidunt minus" [ref=e151]
+            - cell "2026-05-15T00:00:00.000000Z" [ref=e152]
+            - cell "2026-05-16T00:00:00.000000Z" [ref=e153]
+            - cell "$100.61" [ref=e154]
+            - cell "cancelled" [ref=e155]:
+              - generic [ref=e156]: cancelled
+            - cell "Cancelled Delete" [ref=e157]:
+              - generic [ref=e158]:
+                - combobox [ref=e159]:
+                  - option "Pending"
+                  - option "Confirmed"
+                  - option "Cancelled" [selected]
+                  - option "Completed"
+                - button "Delete" [ref=e160] [cursor=pointer]
+          - row "Member sit incidunt minus 2026-05-14T00:00:00.000000Z 2026-05-24T00:00:00.000000Z $1006.10 cancelled Cancelled Delete" [ref=e161]:
+            - cell "Member" [ref=e162]
+            - cell "sit incidunt minus" [ref=e163]
+            - cell "2026-05-14T00:00:00.000000Z" [ref=e164]
+            - cell "2026-05-24T00:00:00.000000Z" [ref=e165]
+            - cell "$1006.10" [ref=e166]
+            - cell "cancelled" [ref=e167]:
+              - generic [ref=e168]: cancelled
+            - cell "Cancelled Delete" [ref=e169]:
+              - generic [ref=e170]:
+                - combobox [ref=e171]:
+                  - option "Pending"
+                  - option "Confirmed"
+                  - option "Cancelled" [selected]
+                  - option "Completed"
+                - button "Delete" [ref=e172] [cursor=pointer]
+          - row "Member corrupti ipsum maxime 2026-05-22T00:00:00.000000Z 2026-05-29T00:00:00.000000Z $917.49 cancelled Cancelled Delete" [ref=e173]:
+            - cell "Member" [ref=e174]
+            - cell "corrupti ipsum maxime" [ref=e175]
+            - cell "2026-05-22T00:00:00.000000Z" [ref=e176]
+            - cell "2026-05-29T00:00:00.000000Z" [ref=e177]
+            - cell "$917.49" [ref=e178]
+            - cell "cancelled" [ref=e179]:
+              - generic [ref=e180]: cancelled
+            - cell "Cancelled Delete" [ref=e181]:
+              - generic [ref=e182]:
+                - combobox [ref=e183]:
+                  - option "Pending"
+                  - option "Confirmed"
+                  - option "Cancelled" [selected]
+                  - option "Completed"
+                - button "Delete" [ref=e184] [cursor=pointer]
+      - generic [ref=e185]:
+        - link "« Previous" [ref=e186]:
+          - /url: ""
+        - link "1" [ref=e187] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/bookings?page=1
+        - link "2" [ref=e188] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/bookings?page=2
+        - link "3" [ref=e189] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/bookings?page=3
+        - link "4" [ref=e190] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/bookings?page=4
+        - link "Next »" [ref=e191] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/bookings?page=2

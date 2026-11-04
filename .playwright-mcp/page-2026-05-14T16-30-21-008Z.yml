@@ -1,0 +1,105 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "CoWorkSpace" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+      - generic [ref=e12]:
+        - link "Spaces" [ref=e13] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spaces
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/pricing
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+        - link "Blog" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/contact
+        - button "Toggle dark mode" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Sign In" [ref=e21] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+        - link "Get Started" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/register
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - img "Animi quisquam et sunt odit non." [ref=e26]
+        - generic [ref=e29]:
+          - link "Back to Blog" [ref=e30] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog
+            - img [ref=e31]
+            - text: Back to Blog
+          - heading "Animi quisquam et sunt odit non." [level=1] [ref=e33]
+          - generic [ref=e34]:
+            - generic [ref=e35]: Admin
+            - generic [ref=e37]: March 9, 2026
+      - generic [ref=e40]:
+        - article [ref=e41]:
+          - generic [ref=e43]: Quis amet et et ipsam. Provident nobis amet quia tempore delectus sunt. Dolore fugiat cum nemo quibusdam consequatur. Cumque vitae sit in qui ducimus illum. Quia voluptatem possimus unde rem odio sed minima. Modi delectus corporis optio. Dolor ratione doloremque consequatur et modi architecto nulla. Totam ratione eius sit velit occaecati suscipit corporis. Delectus vitae qui et. Voluptas qui voluptatem et blanditiis sunt voluptas fuga. Voluptates odio ipsam exercitationem ut corporis est facere. Et quia aliquam et et aut. Velit voluptas est magni doloribus culpa quae quod. Omnis laudantium reiciendis natus adipisci. Molestiae dolores et officia delectus consequatur tempora. Nulla totam culpa adipisci atque aspernatur alias adipisci. Reprehenderit quos voluptas tempora occaecati est. Illum dolor perspiciatis amet. Sunt architecto aut cumque. Fugiat dolorum iure iste velit omnis qui voluptatem.
+        - complementary [ref=e44]:
+          - generic [ref=e46]:
+            - heading "Recent Posts" [level=3] [ref=e47]
+            - generic [ref=e48]:
+              - link "Hic praesentium id est ullam sed harum. 08/05/2026" [ref=e49] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog/3
+                - generic [ref=e51]:
+                  - paragraph [ref=e52]: Hic praesentium id est ullam sed harum.
+                  - paragraph [ref=e53]: 08/05/2026
+              - link "Qui iure aut ut dicta maxime id. 05/05/2026" [ref=e54] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog/5
+                - generic [ref=e56]:
+                  - paragraph [ref=e57]: Qui iure aut ut dicta maxime id.
+                  - paragraph [ref=e58]: 05/05/2026
+              - link "Tempora est quia ut unde et voluptatum laudantium. 29/04/2026" [ref=e59] [cursor=pointer]:
+                - /url: http://127.0.0.1:8000/blog/4
+                - generic [ref=e61]:
+                  - paragraph [ref=e62]: Tempora est quia ut unde et voluptatum laudantium.
+                  - paragraph [ref=e63]: 29/04/2026
+  - contentinfo [ref=e64]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - img [ref=e70]
+            - generic [ref=e72]: CoWorkSpace
+          - paragraph [ref=e73]: Modern coworking spaces designed for productivity, connection, and growth. Join a community of innovators.
+          - generic [ref=e74]:
+            - img [ref=e76] [cursor=pointer]
+            - img [ref=e79] [cursor=pointer]
+            - img [ref=e82] [cursor=pointer]
+        - generic [ref=e84]:
+          - heading "Quick Links" [level=4] [ref=e85]
+          - generic [ref=e86]:
+            - link "Spaces" [ref=e87] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/spaces
+            - link "Pricing" [ref=e88] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/pricing
+            - link "About" [ref=e89] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/about
+            - link "Blog" [ref=e90] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog
+        - generic [ref=e91]:
+          - heading "Support" [level=4] [ref=e92]
+          - generic [ref=e93]:
+            - link "Contact" [ref=e94] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/contact
+            - generic [ref=e95]: FAQs
+            - generic [ref=e96]: Privacy Policy
+            - generic [ref=e97]: Terms of Service
+        - generic [ref=e98]:
+          - heading "Contact" [level=4] [ref=e99]
+          - generic [ref=e100]:
+            - paragraph [ref=e101]:
+              - img [ref=e102]
+              - text: hello@coworkspace.com
+            - paragraph [ref=e104]:
+              - img [ref=e105]
+              - text: +1 (555) 123-4567
+            - paragraph [ref=e107]:
+              - img [ref=e108]
+              - text: 123 Innovation St, Tech City
+      - generic [ref=e111]:
+        - paragraph [ref=e112]: © 2026 CoWorkSpace. All rights reserved.
+        - paragraph [ref=e113]: Crafted with care

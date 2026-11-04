@@ -1,0 +1,189 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "CoWorkSpace" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+      - generic [ref=e12]:
+        - link "Spaces" [ref=e13] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spaces
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/pricing
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+        - link "Blog" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/contact
+        - button "Toggle dark mode" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Sign In" [ref=e21] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+        - link "Get Started" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/register
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: Pricing
+        - heading "Simple, transparent pricing" [level=1] [ref=e31]
+        - paragraph [ref=e32]: Choose the perfect plan for your workflow and budget. No hidden fees, ever.
+      - generic [ref=e35]:
+        - generic [ref=e37]:
+          - heading "Hot Desk" [level=3] [ref=e38]
+          - paragraph [ref=e39]: Perfect for freelancers and remote workers.
+          - generic [ref=e40]:
+            - generic [ref=e41]: $199.00
+            - text: /month
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - img [ref=e44]
+              - text: Access to hot desks
+            - listitem [ref=e46]:
+              - img [ref=e47]
+              - text: High-speed Wi-Fi
+            - listitem [ref=e49]:
+              - img [ref=e50]
+              - text: Coffee & tea
+            - listitem [ref=e52]:
+              - img [ref=e53]
+              - text: Community events
+            - listitem [ref=e55]:
+              - img [ref=e56]
+              - text: Business address
+          - button "Choose Hot Desk" [ref=e58] [cursor=pointer]
+        - generic [ref=e60]:
+          - generic [ref=e62]: Popular
+          - heading "Fixed Desk" [level=3] [ref=e63]
+          - paragraph [ref=e64]: Your own dedicated desk in a shared workspace.
+          - generic [ref=e65]:
+            - generic [ref=e66]: $349.00
+            - text: /month
+          - list [ref=e67]:
+            - listitem [ref=e68]:
+              - img [ref=e69]
+              - text: Dedicated desk
+            - listitem [ref=e71]:
+              - img [ref=e72]
+              - text: Lockable storage
+            - listitem [ref=e74]:
+              - img [ref=e75]
+              - text: High-speed Wi-Fi
+            - listitem [ref=e77]:
+              - img [ref=e78]
+              - text: Coffee & tea
+            - listitem [ref=e80]:
+              - img [ref=e81]
+              - text: Community events
+            - listitem [ref=e83]:
+              - img [ref=e84]
+              - text: Business address
+            - listitem [ref=e86]:
+              - img [ref=e87]
+              - text: Mail handling
+          - button "Choose Fixed Desk" [ref=e89] [cursor=pointer]
+        - generic [ref=e91]:
+          - heading "Private Office" [level=3] [ref=e92]
+          - paragraph [ref=e93]: Fully furnished private office for teams.
+          - generic [ref=e94]:
+            - generic [ref=e95]: $899.00
+            - text: /month
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - img [ref=e98]
+              - text: Private office
+            - listitem [ref=e100]:
+              - img [ref=e101]
+              - text: Furnished
+            - listitem [ref=e103]:
+              - img [ref=e104]
+              - text: High-speed Wi-Fi
+            - listitem [ref=e106]:
+              - img [ref=e107]
+              - text: Meeting room credits
+            - listitem [ref=e109]:
+              - img [ref=e110]
+              - text: Coffee & tea
+            - listitem [ref=e112]:
+              - img [ref=e113]
+              - text: 24/7 Access
+            - listitem [ref=e115]:
+              - img [ref=e116]
+              - text: Business address
+            - listitem [ref=e118]:
+              - img [ref=e119]
+              - text: Mail handling
+            - listitem [ref=e121]:
+              - img [ref=e122]
+              - text: Support team
+          - button "Choose Private Office" [ref=e124] [cursor=pointer]
+      - generic [ref=e126]:
+        - generic [ref=e128]:
+          - generic [ref=e129]: FAQ
+          - heading "Frequently asked questions" [level=2] [ref=e130]
+          - paragraph [ref=e131]: Everything you need to know about our coworking space.
+        - generic [ref=e132]:
+          - button "What is included in a coworking membership?" [ref=e135] [cursor=pointer]:
+            - generic [ref=e136]: What is included in a coworking membership?
+            - img [ref=e137]
+          - button "Can I switch between plans?" [ref=e141] [cursor=pointer]:
+            - generic [ref=e142]: Can I switch between plans?
+            - img [ref=e143]
+          - button "Is there a minimum commitment?" [ref=e147] [cursor=pointer]:
+            - generic [ref=e148]: Is there a minimum commitment?
+            - img [ref=e149]
+          - button "Can I book a space for a single day?" [ref=e153] [cursor=pointer]:
+            - generic [ref=e154]: Can I book a space for a single day?
+            - img [ref=e155]
+          - button "Do you offer private offices?" [ref=e159] [cursor=pointer]:
+            - generic [ref=e160]: Do you offer private offices?
+            - img [ref=e161]
+          - button "What are the operating hours?" [ref=e165] [cursor=pointer]:
+            - generic [ref=e166]: What are the operating hours?
+            - img [ref=e167]
+  - contentinfo [ref=e169]:
+    - generic [ref=e170]:
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - img [ref=e175]
+            - generic [ref=e177]: CoWorkSpace
+          - paragraph [ref=e178]: Modern coworking spaces designed for productivity, connection, and growth. Join a community of innovators.
+          - generic [ref=e179]:
+            - img [ref=e181] [cursor=pointer]
+            - img [ref=e184] [cursor=pointer]
+            - img [ref=e187] [cursor=pointer]
+        - generic [ref=e189]:
+          - heading "Quick Links" [level=4] [ref=e190]
+          - generic [ref=e191]:
+            - link "Spaces" [ref=e192] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/spaces
+            - link "Pricing" [ref=e193] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/pricing
+            - link "About" [ref=e194] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/about
+            - link "Blog" [ref=e195] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog
+        - generic [ref=e196]:
+          - heading "Support" [level=4] [ref=e197]
+          - generic [ref=e198]:
+            - link "Contact" [ref=e199] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/contact
+            - generic [ref=e200]: FAQs
+            - generic [ref=e201]: Privacy Policy
+            - generic [ref=e202]: Terms of Service
+        - generic [ref=e203]:
+          - heading "Contact" [level=4] [ref=e204]
+          - generic [ref=e205]:
+            - paragraph [ref=e206]:
+              - img [ref=e207]
+              - text: hello@coworkspace.com
+            - paragraph [ref=e209]:
+              - img [ref=e210]
+              - text: +1 (555) 123-4567
+            - paragraph [ref=e212]:
+              - img [ref=e213]
+              - text: 123 Innovation St, Tech City
+      - generic [ref=e216]:
+        - paragraph [ref=e217]: © 2026 CoWorkSpace. All rights reserved.
+        - paragraph [ref=e218]: Crafted with care

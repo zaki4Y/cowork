@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-13T16:47:00.000Z",
+  "title": "Design System: CoWorkSpace",
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Indigo", "canonical": "oklch(45% 0.24 280)", "tonalRamp": ["oklch(15% 0.24 280)", "oklch(27% 0.24 280)", "oklch(38% 0.24 280)", "oklch(45% 0.24 280)", "oklch(56% 0.24 280)", "oklch(67% 0.24 280)", "oklch(78% 0.24 280)", "oklch(89% 0.24 280)"] },
+      "primary-bg": { "role": "neutral", "displayName": "Indigo Tint", "canonical": "oklch(94% 0.02 280)", "tonalRamp": [] },
+      "neutral-bg": { "role": "neutral", "displayName": "White", "canonical": "oklch(100% 0 0)", "tonalRamp": [] },
+      "neutral-surface": { "role": "neutral", "displayName": "Warm Off-White", "canonical": "oklch(98% 0.003 80)", "tonalRamp": [] },
+      "neutral-border": { "role": "neutral", "displayName": "Subtle Border", "canonical": "oklch(96% 0.003 80)", "tonalRamp": [] },
+      "footer-bg": { "role": "neutral", "displayName": "Rich Near-Black", "canonical": "oklch(15% 0.005 280)", "tonalRamp": ["oklch(8% 0.005 280)", "oklch(15% 0.005 280)", "oklch(22% 0.005 280)", "oklch(30% 0.005 280)", "oklch(40% 0.005 280)", "oklch(55% 0.005 280)", "oklch(70% 0.005 280)", "oklch(85% 0.005 280)"] },
+      "success": { "role": "tertiary", "displayName": "Success Green", "canonical": "oklch(45% 0.15 145)", "tonalRamp": [] },
+      "warning": { "role": "tertiary", "displayName": "Warning Amber", "canonical": "oklch(55% 0.15 85)", "tonalRamp": [] },
+      "danger": { "role": "tertiary", "displayName": "Danger Red", "canonical": "oklch(50% 0.22 25)", "tonalRamp": [] },
+      "info": { "role": "tertiary", "displayName": "Info Blue", "canonical": "oklch(40% 0.15 260)", "tonalRamp": [] }
+    },
+    "typographyMeta": {
+      "body": { "displayName": "Body", "purpose": "Most text — descriptions, paragraphs, table cells." },
+      "heading": { "displayName": "Heading", "purpose": "Section titles, card headers, modal titles." },
+      "display": { "displayName": "Display", "purpose": "Hero headings, brand logo. Reserved for emphasis." },
+      "label": { "displayName": "Label", "purpose": "Form labels, badges, button text, metadata." }
+    },
+    "shadows": [
+      { "name": "card", "value": "0 1px 2px 0 rgba(0,0,0,0.05)", "purpose": "Cards, dropdowns, small surfaces at rest." },
+      { "name": "hover-lift", "value": "0 20px 40px rgba(0,0,0,0.1)", "purpose": "Card hover state — most dramatic elevation." },
+      { "name": "modal", "value": "0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1)", "purpose": "Dialogs and overlays." },
+      { "name": "button-primary", "value": "0 10px 15px -3px rgba(79,70,229,0.25)", "purpose": "Primary button shadow, tinted indigo." }
+    ],
+    "motion": [
+      { "name": "state-transition", "value": "200ms ease-out", "purpose": "Default for state transitions (hover, focus, color shifts)." },
+      { "name": "page-entrance", "value": "300ms ease-out", "purpose": "Page-level entrance animations via Framer Motion." },
+      { "name": "hover-scale", "value": "1.02", "purpose": "Subtle scale on interactive element hover." },
+      { "name": "tap-scale", "value": "0.98", "purpose": "Press feedback on interactive elements." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" },
+      { "name": "2xl", "value": "1536px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary call-to-action. Indigo background, white text, semibold.",
+      "html": "<button class=\"ds-btn-primary\">Book Now</button>",
+      "css": ".ds-btn-primary { background: #4F46E5; color: #fff; padding: 10px 20px; border-radius: 12px; font-family: Figtree, system-ui, sans-serif; font-weight: 600; font-size: 14px; border: none; cursor: pointer; box-shadow: 0 10px 15px -3px rgba(79,70,229,0.25); transition: background 0.2s, transform 0.2s; display: inline-flex; align-items: center; justify-content: center; } .ds-btn-primary:hover { background: #4338CA; transform: scale(1.02); } .ds-btn-primary:active { transform: scale(0.98); } .ds-btn-primary:focus-visible { outline: 2px solid #4F46E5; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary action. White background, dark text, 1px border.",
+      "html": "<button class=\"ds-btn-secondary\">Cancel</button>",
+      "css": ".ds-btn-secondary { background: #fff; color: #111827; padding: 10px 20px; border-radius: 12px; font-family: Figtree, system-ui, sans-serif; font-weight: 600; font-size: 14px; border: 1px solid #D1D5DB; cursor: pointer; transition: background 0.2s, transform 0.2s; display: inline-flex; align-items: center; justify-content: center; } .ds-btn-secondary:hover { background: #F9FAFB; transform: scale(1.02); } .ds-btn-secondary:active { transform: scale(0.98); } .ds-btn-secondary:focus-visible { outline: 2px solid #4F46E5; outline-offset: 2px; }"
+    },
+    {
+      "name": "Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Content container. White with subtle border and shadow.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-card-content\"><h3 class=\"ds-card-title\">Private Office</h3><p class=\"ds-card-body\">Fully furnished private office for teams who need privacy.</p></div></div>",
+      "css": ".ds-card { background: #fff; border-radius: 16px; border: 1px solid #F3F4F6; box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05); padding: 16px; transition: transform 0.2s, box-shadow 0.2s; } .ds-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); } .ds-card-title { font-family: Figtree, system-ui, sans-serif; font-weight: 600; font-size: 16px; color: #111827; margin: 0 0 4px 0; } .ds-card-body { font-family: Figtree, system-ui, sans-serif; font-size: 14px; color: #6B7280; margin: 0; line-height: 1.5; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Standard form input with rounded corners and indigo focus ring.",
+      "html": "<div class=\"ds-input-group\"><label class=\"ds-label\">Full Name</label><input class=\"ds-input\" placeholder=\"Enter your name\" /></div>",
+      "css": ".ds-input-group { display: flex; flex-direction: column; gap: 4px; } .ds-label { font-family: Figtree, system-ui, sans-serif; font-size: 14px; font-weight: 500; color: #374151; } .ds-input { width: 100%; padding: 10px 16px; border-radius: 12px; border: 1px solid #D1D5DB; background: #fff; font-family: Figtree, system-ui, sans-serif; font-size: 14px; color: #111827; transition: box-shadow 0.2s, border-color 0.2s; box-sizing: border-box; } .ds-input:focus { outline: none; border-color: transparent; box-shadow: 0 0 0 2px #4F46E5; } .ds-input::placeholder { color: #9CA3AF; }"
+    },
+    {
+      "name": "Status Badge",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Status indicator pill. Variants: success (green), warning (yellow), danger (red), info (blue).",
+      "html": "<span class=\"ds-badge ds-badge-success\">Confirmed</span><span class=\"ds-badge ds-badge-warning\">Pending</span><span class=\"ds-badge ds-badge-danger\">Cancelled</span>",
+      "css": ".ds-badge { display: inline-flex; align-items: center; padding: 2px 10px; border-radius: 9999px; font-family: Figtree, system-ui, sans-serif; font-size: 12px; font-weight: 500; } .ds-badge-success { background: #DCFCE7; color: #15803D; } .ds-badge-warning { background: #FEF3C7; color: #A16207; } .ds-badge-danger { background: #FEE2E2; color: #DC2626; } .ds-badge-info { background: #DBEAFE; color: #1D4ED8; } .ds-badge-default { background: #F3F4F6; color: #374151; }"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Admin sidebar nav item with icon. Active state: indigo-50 bg, indigo-600 text.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-item ds-nav-active\" href=\"#\"><svg class=\"ds-nav-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6\"/></svg>Dashboard</a><a class=\"ds-nav-item\" href=\"#\"><svg class=\"ds-nav-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4\"/></svg>Spaces</a></nav>",
+      "css": ".ds-nav { display: flex; flex-direction: column; gap: 4px; } .ds-nav-item { display: flex; align-items: center; gap: 12px; padding: 10px 16px; border-radius: 12px; font-family: Figtree, system-ui, sans-serif; font-size: 14px; font-weight: 500; color: #4B5563; text-decoration: none; transition: background 0.2s, color 0.2s; } .ds-nav-item:hover { background: #F9FAFB; color: #111827; } .ds-nav-active { background: #EEF2FF; color: #4F46E5; } .ds-nav-icon { flex-shrink: 0; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Modern Clubhouse",
+    "overview": "CoWorkSpace is warm professional — indigo accent against clean white surfaces, like a well-designed workspace lobby. It's inviting without being casual, premium without being cold. The interface steps back to let the spaces speak, using generous whitespace, subtle borders, and restrained motion.",
+    "keyCharacteristics": [
+      "Clean white surfaces with warm gray neutrals for depth",
+      "Indigo as a confident but restrained accent, never exceeding 10% of any screen",
+      "Rounded but not playful — 12px corners on buttons, 16px on cards",
+      "Flat surfaces with subtle shadow cues for depth",
+      "Motion that conveys state, not decoration"
+    ],
+    "rules": [
+      { "name": "The One Voice Rule", "body": "The indigo primary accent is used on ≤10% of any given screen. Its rarity is the point.", "section": "colors" },
+      { "name": "The Flat-By-Default Rule", "body": "Surfaces are flat at rest. Shadows appear only as response to state (hover, focus, modal open).", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use the indigo accent sparingly — buttons, links, focus rings. Let white space breathe.",
+      "Do use rounded-xl (12px) on buttons and inputs, rounded-2xl (16px) on cards.",
+      "Do keep shadows subtle and purposeful — flat surfaces at rest, shadows on state change.",
+      "Do use Figtree as the sole typeface across both marketing and product surfaces.",
+      "Do use Framer Motion for interaction feedback (hover, tap, entrance) and GSAP for scroll-driven choreography.",
+      "Do use semantic colors for badges and status indicators (green/confirmed, yellow/pending, red/cancelled)."
+    ],
+    "donts": [
+      "Don't use the indigo accent decoratively. No gradient text, no heavy borders, no background washes. The One Voice Rule.",
+      "Don't use glassmorphism, neon accents, or dark-themed cool startup patterns.",
+      "Don't use #000 or #fff without tinting — warm whites and rich near-blacks only.",
+      "Don't animate CSS layout properties. Use transform and opacity.",
+      "Don't use side-stripe colored borders (border-left/right greater than 1px as accent).",
+      "Don't use the hero-metric template (big number, small label, gradient accent).",
+      "Don't reach for modals as a first response to state — exhaust inline and progressive alternatives first.",
+      "Don't use em dashes in copy. Use commas, colons, or periods."
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - link "CoWorkSpace Admin" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+          - generic [ref=e14]: CoWorkSpace
+          - generic [ref=e15]: Admin
+      - generic [ref=e16]:
+        - button "Toggle dark mode" [ref=e17] [cursor=pointer]:
+          - img [ref=e18]
+        - link "View Site" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - img [ref=e21]
+          - text: View Site
+        - generic [ref=e23]:
+          - generic [ref=e24]: A
+          - button [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+  - main [ref=e28]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading "Dashboard" [level=1] [ref=e32]
+        - paragraph [ref=e33]: Overview of your coworking space.
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - paragraph [ref=e38]: "12"
+          - paragraph [ref=e39]: Total Spaces
+        - generic [ref=e40]:
+          - paragraph [ref=e43]: "32"
+          - paragraph [ref=e44]: Total Bookings
+        - generic [ref=e45]:
+          - paragraph [ref=e48]: "9"
+          - paragraph [ref=e49]: Total Members
+        - generic [ref=e50]:
+          - paragraph [ref=e53]: "0"
+          - paragraph [ref=e54]: Pending Inquiries
+        - generic [ref=e55]:
+          - paragraph [ref=e58]: $1,606.61
+          - paragraph [ref=e59]: Monthly Revenue
+      - generic [ref=e60]:
+        - heading "Recent Bookings" [level=2] [ref=e61]
+        - table [ref=e64]:
+          - rowgroup [ref=e65]:
+            - row "User Space Dates Status" [ref=e66]:
+              - columnheader "User" [ref=e67]
+              - columnheader "Space" [ref=e68]
+              - columnheader "Dates" [ref=e69]
+              - columnheader "Status" [ref=e70]
+          - rowgroup [ref=e71]:
+            - row "Member sit incidunt minus 2026-05-22T00:00:00.000000Z — 2026-05-23T00:00:00.000000Z cancelled" [ref=e72]:
+              - cell "Member" [ref=e73]
+              - cell "sit incidunt minus" [ref=e74]
+              - cell "2026-05-22T00:00:00.000000Z — 2026-05-23T00:00:00.000000Z" [ref=e75]
+              - cell "cancelled" [ref=e76]:
+                - generic [ref=e77]: cancelled
+            - row "Member amet voluptas voluptatibus 2026-05-15T00:00:00.000000Z — 2026-05-16T00:00:00.000000Z cancelled" [ref=e78]:
+              - cell "Member" [ref=e79]
+              - cell "amet voluptas voluptatibus" [ref=e80]
+              - cell "2026-05-15T00:00:00.000000Z — 2026-05-16T00:00:00.000000Z" [ref=e81]
+              - cell "cancelled" [ref=e82]:
+                - generic [ref=e83]: cancelled
+            - row "Member sit incidunt minus 2026-05-19T00:00:00.000000Z — 2026-05-22T00:00:00.000000Z cancelled" [ref=e84]:
+              - cell "Member" [ref=e85]
+              - cell "sit incidunt minus" [ref=e86]
+              - cell "2026-05-19T00:00:00.000000Z — 2026-05-22T00:00:00.000000Z" [ref=e87]
+              - cell "cancelled" [ref=e88]:
+                - generic [ref=e89]: cancelled
+            - row "Member sit incidunt minus 2026-05-18T00:00:00.000000Z — 2026-05-19T00:00:00.000000Z cancelled" [ref=e90]:
+              - cell "Member" [ref=e91]
+              - cell "sit incidunt minus" [ref=e92]
+              - cell "2026-05-18T00:00:00.000000Z — 2026-05-19T00:00:00.000000Z" [ref=e93]
+              - cell "cancelled" [ref=e94]:
+                - generic [ref=e95]: cancelled
+            - row "Member aspernatur natus aut 2026-05-27T00:00:00.000000Z — 2026-05-31T00:00:00.000000Z cancelled" [ref=e96]:
+              - cell "Member" [ref=e97]
+              - cell "aspernatur natus aut" [ref=e98]
+              - cell "2026-05-27T00:00:00.000000Z — 2026-05-31T00:00:00.000000Z" [ref=e99]
+              - cell "cancelled" [ref=e100]:
+                - generic [ref=e101]: cancelled

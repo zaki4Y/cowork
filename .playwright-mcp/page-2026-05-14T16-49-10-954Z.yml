@@ -1,0 +1,39 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+        - link "CoWorkSpace Admin" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e12]
+          - generic [ref=e14]: CoWorkSpace
+          - generic [ref=e15]: Admin
+      - generic [ref=e16]:
+        - button "Toggle dark mode" [ref=e17] [cursor=pointer]:
+          - img [ref=e18]
+        - link "View Site" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - img [ref=e21]
+          - text: View Site
+        - generic [ref=e23]:
+          - generic [ref=e24]: A
+          - button [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+  - main [ref=e28]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - heading "Contact Inquiries" [level=1] [ref=e33]
+        - paragraph [ref=e34]: View messages from visitors.
+      - table [ref=e37]:
+        - rowgroup [ref=e38]:
+          - row "Name Email Message Status Date Actions" [ref=e39]:
+            - columnheader "Name" [ref=e40]
+            - columnheader "Email" [ref=e41]
+            - columnheader "Message" [ref=e42]
+            - columnheader "Status" [ref=e43]
+            - columnheader "Date" [ref=e44]
+            - columnheader "Actions" [ref=e45]
+        - rowgroup [ref=e46]:
+          - row "No inquiries found." [ref=e47]:
+            - cell "No inquiries found." [ref=e48]

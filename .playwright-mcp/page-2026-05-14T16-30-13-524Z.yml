@@ -1,0 +1,117 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "CoWorkSpace" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+      - generic [ref=e12]:
+        - link "Spaces" [ref=e13] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spaces
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/pricing
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+        - link "Blog" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/contact
+        - button "Toggle dark mode" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Sign In" [ref=e21] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+        - link "Get Started" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/register
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - img "sit incidunt minus" [ref=e26]
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: Virtual Office
+            - generic [ref=e32]: Up to 18 people
+          - heading "sit incidunt minus" [level=1] [ref=e33]
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]: Details
+            - heading "About this space" [level=2] [ref=e40]
+            - paragraph [ref=e41]: Sed rerum voluptatem veniam nulla ipsa. Rerum saepe unde delectus. Et praesentium quia sed itaque sed qui et. Quis id voluptas corrupti et molestiae. Consequatur et et et quibusdam dolorum quia. Quia voluptatum natus et adipisci ea eum laudantium. Quia commodi provident incidunt dolorem rem ipsam. Praesentium aut quis sit tempore. Voluptatem repudiandae velit omnis aperiam et. Voluptatum voluptate et numquam ea ratione quisquam repudiandae. Hic eligendi reiciendis doloremque. Aspernatur eius non maiores et. Ab qui quis velit consequatur.
+          - generic [ref=e42]:
+            - heading "Amenities" [level=2] [ref=e43]
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - img [ref=e46]
+                - text: Air Conditioning
+              - generic [ref=e48]:
+                - img [ref=e49]
+                - text: Kitchen
+              - generic [ref=e51]:
+                - img [ref=e52]
+                - text: Security
+              - generic [ref=e54]:
+                - img [ref=e55]
+                - text: 24/7 Access
+              - generic [ref=e57]:
+                - img [ref=e58]
+                - text: Lounge Area
+        - generic [ref=e62]:
+          - heading "Pricing" [level=3] [ref=e63]
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - generic [ref=e66]: Per Hour
+              - generic [ref=e67]: $40.76
+            - generic [ref=e68]:
+              - generic [ref=e69]: Per Day
+              - generic [ref=e70]: $100.61
+            - generic [ref=e71]:
+              - generic [ref=e72]: Per Month
+              - generic [ref=e73]: $426.27
+          - button "Book This Space" [ref=e74] [cursor=pointer]
+          - paragraph [ref=e75]: Free cancellation within 24 hours
+  - contentinfo [ref=e76]:
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - img [ref=e82]
+            - generic [ref=e84]: CoWorkSpace
+          - paragraph [ref=e85]: Modern coworking spaces designed for productivity, connection, and growth. Join a community of innovators.
+          - generic [ref=e86]:
+            - img [ref=e88] [cursor=pointer]
+            - img [ref=e91] [cursor=pointer]
+            - img [ref=e94] [cursor=pointer]
+        - generic [ref=e96]:
+          - heading "Quick Links" [level=4] [ref=e97]
+          - generic [ref=e98]:
+            - link "Spaces" [ref=e99] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/spaces
+            - link "Pricing" [ref=e100] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/pricing
+            - link "About" [ref=e101] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/about
+            - link "Blog" [ref=e102] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog
+        - generic [ref=e103]:
+          - heading "Support" [level=4] [ref=e104]
+          - generic [ref=e105]:
+            - link "Contact" [ref=e106] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/contact
+            - generic [ref=e107]: FAQs
+            - generic [ref=e108]: Privacy Policy
+            - generic [ref=e109]: Terms of Service
+        - generic [ref=e110]:
+          - heading "Contact" [level=4] [ref=e111]
+          - generic [ref=e112]:
+            - paragraph [ref=e113]:
+              - img [ref=e114]
+              - text: hello@coworkspace.com
+            - paragraph [ref=e116]:
+              - img [ref=e117]
+              - text: +1 (555) 123-4567
+            - paragraph [ref=e119]:
+              - img [ref=e120]
+              - text: 123 Innovation St, Tech City
+      - generic [ref=e123]:
+        - paragraph [ref=e124]: © 2026 CoWorkSpace. All rights reserved.
+        - paragraph [ref=e125]: Crafted with care

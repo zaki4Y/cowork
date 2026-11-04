@@ -1,0 +1,137 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "CoWorkSpace" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+      - generic [ref=e12]:
+        - link "Spaces" [ref=e13] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spaces
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/pricing
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+        - link "Blog" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/contact
+        - button "Toggle dark mode" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Sign In" [ref=e21] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+        - link "Get Started" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/register
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: Journal
+        - heading "Our Blog" [level=1] [ref=e30]
+        - paragraph [ref=e31]: Insights, tips, and stories from the coworking community.
+      - generic [ref=e34]:
+        - link "Hic praesentium id est ullam sed harum. Hic praesentium id est ullam sed harum. Ipsam sapiente sit at odio. Et corporis reiciendis laudantium quo atque expedita omnis. Aperiam autem rem a et aperiam. Admin May 8, 2026" [ref=e36] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog/3
+          - generic [ref=e37]:
+            - img "Hic praesentium id est ullam sed harum." [ref=e39]
+            - generic [ref=e40]:
+              - heading "Hic praesentium id est ullam sed harum." [level=3] [ref=e41]
+              - paragraph [ref=e42]: Ipsam sapiente sit at odio. Et corporis reiciendis laudantium quo atque expedita omnis. Aperiam autem rem a et aperiam.
+              - generic [ref=e43]:
+                - generic [ref=e44]: Admin
+                - generic [ref=e45]: May 8, 2026
+        - link "Qui iure aut ut dicta maxime id. Qui iure aut ut dicta maxime id. Eos quo quaerat suscipit adipisci eligendi. Vel consequatur sint asperiores neque et sapiente. Explicabo sed blanditiis sequi eligendi. Admin May 5, 2026" [ref=e47] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog/5
+          - generic [ref=e48]:
+            - img "Qui iure aut ut dicta maxime id." [ref=e50]
+            - generic [ref=e51]:
+              - heading "Qui iure aut ut dicta maxime id." [level=3] [ref=e52]
+              - paragraph [ref=e53]: Eos quo quaerat suscipit adipisci eligendi. Vel consequatur sint asperiores neque et sapiente. Explicabo sed blanditiis sequi eligendi.
+              - generic [ref=e54]:
+                - generic [ref=e55]: Admin
+                - generic [ref=e56]: May 5, 2026
+        - link "Tempora est quia ut unde et voluptatum laudantium. Tempora est quia ut unde et voluptatum laudantium. Officia ipsum aperiam esse. Et incidunt earum facere officia. Itaque exercitationem repellendus et laudantium odit. Quia eveniet deleniti quaerat aut eos. Admin April 29, 2026" [ref=e58] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog/4
+          - generic [ref=e59]:
+            - img "Tempora est quia ut unde et voluptatum laudantium." [ref=e61]
+            - generic [ref=e62]:
+              - heading "Tempora est quia ut unde et voluptatum laudantium." [level=3] [ref=e63]
+              - paragraph [ref=e64]: Officia ipsum aperiam esse. Et incidunt earum facere officia. Itaque exercitationem repellendus et laudantium odit. Quia eveniet deleniti quaerat aut eos.
+              - generic [ref=e65]:
+                - generic [ref=e66]: Admin
+                - generic [ref=e67]: April 29, 2026
+        - link "Beatae rem modi quibusdam laboriosam magni quia tenetur. Beatae rem modi quibusdam laboriosam magni quia tenetur. Dolore dolore voluptates ad illo ut. Quos id quasi vitae quisquam corrupti aspernatur possimus. Et cupiditate quis assumenda praesentium. Ut nostrum culpa quo fugit ut soluta et. Admin April 24, 2026" [ref=e69] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog/2
+          - generic [ref=e70]:
+            - img "Beatae rem modi quibusdam laboriosam magni quia tenetur." [ref=e72]
+            - generic [ref=e73]:
+              - heading "Beatae rem modi quibusdam laboriosam magni quia tenetur." [level=3] [ref=e74]
+              - paragraph [ref=e75]: Dolore dolore voluptates ad illo ut. Quos id quasi vitae quisquam corrupti aspernatur possimus. Et cupiditate quis assumenda praesentium. Ut nostrum culpa quo fugit ut soluta et.
+              - generic [ref=e76]:
+                - generic [ref=e77]: Admin
+                - generic [ref=e78]: April 24, 2026
+        - link "Adipisci aut enim autem quia accusamus. Adipisci aut enim autem quia accusamus. Sequi et repellendus rerum aliquid asperiores atque. Est omnis aut ea et. Perferendis omnis illum sit labore sequi incidunt officia. Admin April 9, 2026" [ref=e80] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog/6
+          - generic [ref=e81]:
+            - img "Adipisci aut enim autem quia accusamus." [ref=e83]
+            - generic [ref=e84]:
+              - heading "Adipisci aut enim autem quia accusamus." [level=3] [ref=e85]
+              - paragraph [ref=e86]: Sequi et repellendus rerum aliquid asperiores atque. Est omnis aut ea et. Perferendis omnis illum sit labore sequi incidunt officia.
+              - generic [ref=e87]:
+                - generic [ref=e88]: Admin
+                - generic [ref=e89]: April 9, 2026
+        - link "Animi quisquam et sunt odit non. Animi quisquam et sunt odit non. Repudiandae tenetur eaque fugiat in ipsa vitae sed. Incidunt aliquid ipsa consequuntur id repellendus neque. Ex velit incidunt aut illo quasi. Admin March 9, 2026" [ref=e91] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog/1
+          - generic [ref=e92]:
+            - img "Animi quisquam et sunt odit non." [ref=e94]
+            - generic [ref=e95]:
+              - heading "Animi quisquam et sunt odit non." [level=3] [ref=e96]
+              - paragraph [ref=e97]: Repudiandae tenetur eaque fugiat in ipsa vitae sed. Incidunt aliquid ipsa consequuntur id repellendus neque. Ex velit incidunt aut illo quasi.
+              - generic [ref=e98]:
+                - generic [ref=e99]: Admin
+                - generic [ref=e100]: March 9, 2026
+  - contentinfo [ref=e101]:
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - img [ref=e107]
+            - generic [ref=e109]: CoWorkSpace
+          - paragraph [ref=e110]: Modern coworking spaces designed for productivity, connection, and growth. Join a community of innovators.
+          - generic [ref=e111]:
+            - img [ref=e113] [cursor=pointer]
+            - img [ref=e116] [cursor=pointer]
+            - img [ref=e119] [cursor=pointer]
+        - generic [ref=e121]:
+          - heading "Quick Links" [level=4] [ref=e122]
+          - generic [ref=e123]:
+            - link "Spaces" [ref=e124] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/spaces
+            - link "Pricing" [ref=e125] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/pricing
+            - link "About" [ref=e126] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/about
+            - link "Blog" [ref=e127] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog
+        - generic [ref=e128]:
+          - heading "Support" [level=4] [ref=e129]
+          - generic [ref=e130]:
+            - link "Contact" [ref=e131] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/contact
+            - generic [ref=e132]: FAQs
+            - generic [ref=e133]: Privacy Policy
+            - generic [ref=e134]: Terms of Service
+        - generic [ref=e135]:
+          - heading "Contact" [level=4] [ref=e136]
+          - generic [ref=e137]:
+            - paragraph [ref=e138]:
+              - img [ref=e139]
+              - text: hello@coworkspace.com
+            - paragraph [ref=e141]:
+              - img [ref=e142]
+              - text: +1 (555) 123-4567
+            - paragraph [ref=e144]:
+              - img [ref=e145]
+              - text: 123 Innovation St, Tech City
+      - generic [ref=e148]:
+        - paragraph [ref=e149]: © 2026 CoWorkSpace. All rights reserved.
+        - paragraph [ref=e150]: Crafted with care

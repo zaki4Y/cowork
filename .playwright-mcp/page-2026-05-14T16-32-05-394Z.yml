@@ -1,0 +1,107 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "CoWorkSpace Admin" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+        - generic [ref=e12]: Admin
+      - generic [ref=e13]:
+        - button "Toggle dark mode" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+        - link "View Site" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+          - text: View Site
+        - generic [ref=e20]:
+          - generic [ref=e21]: A
+          - generic [ref=e22]: Admin
+          - button [ref=e23] [cursor=pointer]:
+            - img [ref=e24]
+  - complementary [ref=e26]:
+    - navigation [ref=e27]:
+      - link "Dashboard" [ref=e28] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin
+        - img [ref=e29]
+        - text: Dashboard
+      - link "Spaces" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/spaces
+        - img [ref=e32]
+        - text: Spaces
+      - link "Bookings" [ref=e34] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/bookings
+        - img [ref=e35]
+        - text: Bookings
+      - link "Users" [ref=e37] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/users
+        - img [ref=e38]
+        - text: Users
+      - link "Blog" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog
+        - img [ref=e41]
+        - text: Blog
+      - link "Contacts" [ref=e43] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/contacts
+        - img [ref=e44]
+        - text: Contacts
+  - main [ref=e46]:
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - heading "Dashboard" [level=1] [ref=e50]
+        - paragraph [ref=e51]: Overview of your coworking space.
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - paragraph [ref=e56]: "12"
+          - paragraph [ref=e57]: Total Spaces
+        - generic [ref=e58]:
+          - paragraph [ref=e61]: "31"
+          - paragraph [ref=e62]: Total Bookings
+        - generic [ref=e63]:
+          - paragraph [ref=e66]: "9"
+          - paragraph [ref=e67]: Total Members
+        - generic [ref=e68]:
+          - paragraph [ref=e71]: "0"
+          - paragraph [ref=e72]: Pending Inquiries
+        - generic [ref=e73]:
+          - paragraph [ref=e76]: $1,606.61
+          - paragraph [ref=e77]: Monthly Revenue
+      - generic [ref=e78]:
+        - heading "Recent Bookings" [level=2] [ref=e79]
+        - table [ref=e82]:
+          - rowgroup [ref=e83]:
+            - row "User Space Dates Status" [ref=e84]:
+              - columnheader "User" [ref=e85]
+              - columnheader "Space" [ref=e86]
+              - columnheader "Dates" [ref=e87]
+              - columnheader "Status" [ref=e88]
+          - rowgroup [ref=e89]:
+            - row "Member amet voluptas voluptatibus 2026-05-15T00:00:00.000000Z — 2026-05-16T00:00:00.000000Z cancelled" [ref=e90]:
+              - cell "Member" [ref=e91]
+              - cell "amet voluptas voluptatibus" [ref=e92]
+              - cell "2026-05-15T00:00:00.000000Z — 2026-05-16T00:00:00.000000Z" [ref=e93]
+              - cell "cancelled" [ref=e94]:
+                - generic [ref=e95]: cancelled
+            - row "Member sit incidunt minus 2026-05-19T00:00:00.000000Z — 2026-05-22T00:00:00.000000Z cancelled" [ref=e96]:
+              - cell "Member" [ref=e97]
+              - cell "sit incidunt minus" [ref=e98]
+              - cell "2026-05-19T00:00:00.000000Z — 2026-05-22T00:00:00.000000Z" [ref=e99]
+              - cell "cancelled" [ref=e100]:
+                - generic [ref=e101]: cancelled
+            - row "Member sit incidunt minus 2026-05-18T00:00:00.000000Z — 2026-05-19T00:00:00.000000Z cancelled" [ref=e102]:
+              - cell "Member" [ref=e103]
+              - cell "sit incidunt minus" [ref=e104]
+              - cell "2026-05-18T00:00:00.000000Z — 2026-05-19T00:00:00.000000Z" [ref=e105]
+              - cell "cancelled" [ref=e106]:
+                - generic [ref=e107]: cancelled
+            - row "Member aspernatur natus aut 2026-05-27T00:00:00.000000Z — 2026-05-31T00:00:00.000000Z cancelled" [ref=e108]:
+              - cell "Member" [ref=e109]
+              - cell "aspernatur natus aut" [ref=e110]
+              - cell "2026-05-27T00:00:00.000000Z — 2026-05-31T00:00:00.000000Z" [ref=e111]
+              - cell "cancelled" [ref=e112]:
+                - generic [ref=e113]: cancelled
+            - row "Member aspernatur natus aut 2026-05-20T00:00:00.000000Z — 2026-05-28T00:00:00.000000Z cancelled" [ref=e114]:
+              - cell "Member" [ref=e115]
+              - cell "aspernatur natus aut" [ref=e116]
+              - cell "2026-05-20T00:00:00.000000Z — 2026-05-28T00:00:00.000000Z" [ref=e117]
+              - cell "cancelled" [ref=e118]:
+                - generic [ref=e119]: cancelled

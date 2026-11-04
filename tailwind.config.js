@@ -1,0 +1,178 @@
+import defaultTheme from 'tailwindcss/defaultTheme';
+import forms from '@tailwindcss/forms';
+
+export default {
+    content: [
+        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
+        './storage/framework/views/*.php',
+        './resources/views/**/*.blade.php',
+        './resources/js/**/*.jsx',
+    ],
+    theme: {
+        extend: {
+            colors: {
+                background: 'var(--background)',
+                foreground: 'var(--foreground)',
+                muted: {
+                    DEFAULT: 'var(--muted)',
+                    foreground: 'var(--muted-foreground)',
+                },
+                primary: {
+                    DEFAULT: 'var(--primary)',
+                    foreground: 'var(--primary-foreground)',
+                },
+                secondary: {
+                    DEFAULT: 'var(--secondary)',
+                    foreground: 'var(--secondary-foreground)',
+                },
+                destructive: {
+                    DEFAULT: 'var(--destructive)',
+                    foreground: 'var(--destructive-foreground)',
+                },
+                accent: {
+                    DEFAULT: 'var(--accent)',
+                    foreground: 'var(--accent-foreground)',
+                },
+                card: {
+                    DEFAULT: 'var(--card)',
+                    foreground: 'var(--card-foreground)',
+                },
+                border: 'var(--border)',
+                input: 'var(--input)',
+                ring: 'var(--ring)',
+                // AURELIA palette
+                cream: {
+                    50: '#FDFBF7',
+                    100: '#F9F3EA',
+                    200: '#F0E6D8',
+                    300: '#E2D8CA',
+                    400: '#D3C4B0',
+                    500: '#B7A78F',
+                    600: '#8F816F',
+                    700: '#7C6F62',
+                    800: '#4A3F33',
+                    900: '#33261C',
+                    950: '#211912',
+                },
+                sand: {
+                    50: '#FAF6EF',
+                    100: '#F5EFE6',
+                    200: '#EDE5D8',
+                    300: '#E2D8CA',
+                    400: '#D3C4B0',
+                    500: '#C4B29A',
+                    600: '#A08D74',
+                    700: '#7C6F62',
+                    800: '#5A4F41',
+                    900: '#3A322A',
+                },
+                espresso: {
+                    50: '#F5EFE6',
+                    100: '#EDE3D5',
+                    200: '#D9C7B2',
+                    300: '#BFA88C',
+                    400: '#9A7F5F',
+                    500: '#6E563C',
+                    600: '#4A382A',
+                    700: '#33261C',
+                    800: '#261B13',
+                    900: '#1A120C',
+                    950: '#0F0A06',
+                },
+                bronze: {
+                    50: '#FAF3E8',
+                    100: '#F2E5D2',
+                    200: '#E5CCAB',
+                    300: '#D4AF7E',
+                    400: '#C29258',
+                    500: '#9A6B3F',
+                    600: '#7E5530',
+                    700: '#644424',
+                    800: '#4E341B',
+                    900: '#3A2614',
+                },
+                // Legacy aliases mapped onto the AURELIA palette
+                base: {
+                    50: '#FAF8F5',
+                    100: '#F3EEE7',
+                    200: '#E8E0D4',
+                    300: '#D6CBBC',
+                    400: '#B3A695',
+                    500: '#8F8272',
+                    600: '#6E6355',
+                    700: '#4A3F33',
+                    800: '#33291E',
+                    900: '#221A12',
+                    950: '#150F09',
+                },
+                ochre: {
+                    50: '#FAF3E8',
+                    100: '#F2E5D2',
+                    200: '#E5CCAB',
+                    300: '#D4AF7E',
+                    400: '#C29258',
+                    500: '#9A6B3F',
+                    600: '#7E5530',
+                    700: '#644424',
+                    800: '#4E341B',
+                    900: '#3A2614',
+                    950: '#291A0D',
+                },
+            },
+            fontFamily: {
+                sans: ['DM Sans', ...defaultTheme.fontFamily.sans],
+                display: ['Playfair Display', ...defaultTheme.fontFamily.serif],
+                heading: ['Playfair Display', ...defaultTheme.fontFamily.serif],
+                mono: ['JetBrains Mono', ...defaultTheme.fontFamily.mono],
+            },
+            borderRadius: {
+                '2xl': '20px',
+                '3xl': '24px',
+                '4xl': '28px',
+            },
+            boxShadow: {
+                'warm': '0 4px 20px rgba(51, 38, 28, 0.06), 0 1px 3px rgba(51, 38, 28, 0.04)',
+                'warm-lg': '0 10px 40px rgba(51, 38, 28, 0.08), 0 2px 8px rgba(51, 38, 28, 0.04)',
+                'warm-xl': '0 20px 60px rgba(51, 38, 28, 0.1), 0 4px 12px rgba(51, 38, 28, 0.05)',
+                'premium': '0 8px 32px rgba(51, 38, 28, 0.06), 0 1px 4px rgba(51, 38, 28, 0.02)',
+                'premium-lg': '0 16px 48px rgba(51, 38, 28, 0.08), 0 2px 8px rgba(51, 38, 28, 0.03)',
+                'inner-warm': 'inset 0 2px 4px rgba(154, 107, 63, 0.06)',
+            },
+            animation: {
+                'fade-in': 'fadeIn 0.6s ease-out forwards',
+                'slide-up': 'slideUp 0.6s ease-out forwards',
+                'scale-in': 'scaleIn 0.4s ease-out forwards',
+                'shimmer': 'shimmer 2s infinite linear',
+                'float': 'float 6s ease-in-out infinite',
+                'pulse-soft': 'pulseSoft 3s ease-in-out infinite',
+            },
+            keyframes: {
+                fadeIn: {
+                    '0%': { opacity: '0' },
+                    '100%': { opacity: '1' },
+                },
+                slideUp: {
+                    '0%': { opacity: '0', transform: 'translateY(20px)' },
+                    '100%': { opacity: '1', transform: 'translateY(0)' },
+                },
+                scaleIn: {
+                    '0%': { opacity: '0', transform: 'scale(0.95)' },
+                    '100%': { opacity: '1', transform: 'scale(1)' },
+                },
+                shimmer: {
+                    '0%': { backgroundPosition: '-200% 0' },
+                    '100%': { backgroundPosition: '200% 0' },
+                },
+                float: {
+                    '0%, 100%': { transform: 'translateY(0px)' },
+                    '50%': { transform: 'translateY(-12px)' },
+                },
+                pulseSoft: {
+                    '0%, 100%': { opacity: '0.6' },
+                    '50%': { opacity: '1' },
+                },
+            },
+        },
+    },
+    plugins: [forms],
+};

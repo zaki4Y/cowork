@@ -1,0 +1,300 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "CoWorkSpace" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+      - generic [ref=e12]:
+        - button "Toggle dark mode" [ref=e13] [cursor=pointer]:
+          - img [ref=e14]
+        - button [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: Premium coworking spaces
+        - heading "Find your perfect workspace" [level=1] [ref=e28]:
+          - generic [ref=e29]: Find your
+          - generic [ref=e30]: perfect
+          - generic [ref=e31]: workspace
+        - paragraph [ref=e32]: From hot desks to private offices — thoughtfully designed spaces in premium locations crafted for how you actually work.
+        - generic [ref=e33]:
+          - link "Browse Spaces" [ref=e34] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces
+            - button "Browse Spaces" [ref=e35]
+          - link "See Plans" [ref=e36] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/pricing
+            - button "See Plans" [ref=e37]
+        - generic [ref=e38]:
+          - generic [ref=e39]: 12+ Locations
+          - generic [ref=e41]: 24/7 Access
+          - generic [ref=e43]: Instant Booking
+      - generic [ref=e46]:
+        - generic [ref=e48]:
+          - generic [ref=e49]: Our Spaces
+          - heading "Browse our spaces" [level=2] [ref=e50]
+          - paragraph [ref=e51]: Each space is designed for a different way of working. Find the one that fits your rhythm.
+        - generic [ref=e52]:
+          - link "sit incidunt minus Virtual Office sit incidunt minus $40.76/hr 18 people" [ref=e54] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/1
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - img "sit incidunt minus" [ref=e57]
+                - generic [ref=e59]: Virtual Office
+              - generic [ref=e60]:
+                - heading "sit incidunt minus" [level=3] [ref=e61]
+                - generic [ref=e62]:
+                  - generic [ref=e63]: $40.76/hr
+                  - generic [ref=e64]: 18 people
+          - link "corrupti ipsum maxime Hot Desk corrupti ipsum maxime $35.27/hr 2 people" [ref=e66] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/2
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - img "corrupti ipsum maxime" [ref=e69]
+                - generic [ref=e71]: Hot Desk
+              - generic [ref=e72]:
+                - heading "corrupti ipsum maxime" [level=3] [ref=e73]
+                - generic [ref=e74]:
+                  - generic [ref=e75]: $35.27/hr
+                  - generic [ref=e76]: 2 people
+          - link "qui quis minus Virtual Office qui quis minus $44.29/hr 4 people" [ref=e78] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/3
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - img "qui quis minus" [ref=e81]
+                - generic [ref=e83]: Virtual Office
+              - generic [ref=e84]:
+                - heading "qui quis minus" [level=3] [ref=e85]
+                - generic [ref=e86]:
+                  - generic [ref=e87]: $44.29/hr
+                  - generic [ref=e88]: 4 people
+          - link "aspernatur natus aut Hot Desk aspernatur natus aut $18.70/hr 12 people" [ref=e90] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/4
+            - generic [ref=e91]:
+              - generic [ref=e92]:
+                - img "aspernatur natus aut" [ref=e93]
+                - generic [ref=e95]: Hot Desk
+              - generic [ref=e96]:
+                - heading "aspernatur natus aut" [level=3] [ref=e97]
+                - generic [ref=e98]:
+                  - generic [ref=e99]: $18.70/hr
+                  - generic [ref=e100]: 12 people
+        - link "View all spaces" [ref=e102] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spaces
+          - button "View all spaces" [ref=e103]:
+            - text: View all spaces
+            - img [ref=e104]
+      - generic [ref=e107]:
+        - generic [ref=e109]:
+          - generic [ref=e110]: By the Numbers
+          - heading "Our reach in numbers" [level=2] [ref=e111]
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e115]: 0+
+            - generic [ref=e116]: Workspaces
+          - generic [ref=e117]:
+            - generic [ref=e119]: 0+
+            - generic [ref=e120]: Members
+          - generic [ref=e121]:
+            - generic [ref=e122]: "0"
+            - generic [ref=e123]: Cities
+          - generic [ref=e124]:
+            - generic [ref=e126]: 0+
+            - generic [ref=e127]: Years in business
+      - generic [ref=e130]:
+        - img [ref=e132]
+        - blockquote [ref=e134]: “CoWorkSpace transformed how my team works. The spaces are beautiful, the community is genuine, and the flexibility is exactly what we needed.”
+        - generic [ref=e135]:
+          - generic [ref=e136]: SC
+          - generic [ref=e137]:
+            - paragraph [ref=e138]: Sarah Chen
+            - paragraph [ref=e139]: Product Designer, Nomad Studio
+      - generic [ref=e141]:
+        - generic [ref=e143]:
+          - generic [ref=e144]: Pricing
+          - heading "Simple, transparent pricing" [level=2] [ref=e145]
+          - paragraph [ref=e146]: One plan, one price. No hidden fees, no surprises.
+        - generic [ref=e147]:
+          - generic [ref=e149]:
+            - heading "Hot Desk" [level=3] [ref=e150]
+            - paragraph [ref=e151]: Perfect for freelancers and remote workers.
+            - generic [ref=e152]:
+              - generic [ref=e153]: $199.00
+              - generic [ref=e154]: /monthly
+            - list [ref=e155]:
+              - listitem [ref=e156]:
+                - img [ref=e157]
+                - text: Access to hot desks
+              - listitem [ref=e159]:
+                - img [ref=e160]
+                - text: High-speed Wi-Fi
+              - listitem [ref=e162]:
+                - img [ref=e163]
+                - text: Coffee & tea
+              - listitem [ref=e165]:
+                - img [ref=e166]
+                - text: Community events
+              - listitem [ref=e168]:
+                - img [ref=e169]
+                - text: Business address
+            - button "Choose Hot Desk" [ref=e171] [cursor=pointer]
+          - generic [ref=e173]:
+            - generic [ref=e174]: Popular
+            - heading "Fixed Desk" [level=3] [ref=e175]
+            - paragraph [ref=e176]: Your own dedicated desk in a shared workspace.
+            - generic [ref=e177]:
+              - generic [ref=e178]: $349.00
+              - generic [ref=e179]: /monthly
+            - list [ref=e180]:
+              - listitem [ref=e181]:
+                - img [ref=e182]
+                - text: Dedicated desk
+              - listitem [ref=e184]:
+                - img [ref=e185]
+                - text: Lockable storage
+              - listitem [ref=e187]:
+                - img [ref=e188]
+                - text: High-speed Wi-Fi
+              - listitem [ref=e190]:
+                - img [ref=e191]
+                - text: Coffee & tea
+              - listitem [ref=e193]:
+                - img [ref=e194]
+                - text: Community events
+              - listitem [ref=e196]:
+                - img [ref=e197]
+                - text: Business address
+              - listitem [ref=e199]:
+                - img [ref=e200]
+                - text: Mail handling
+            - button "Choose Fixed Desk" [ref=e202] [cursor=pointer]
+          - generic [ref=e204]:
+            - heading "Private Office" [level=3] [ref=e205]
+            - paragraph [ref=e206]: Fully furnished private office for teams.
+            - generic [ref=e207]:
+              - generic [ref=e208]: $899.00
+              - generic [ref=e209]: /monthly
+            - list [ref=e210]:
+              - listitem [ref=e211]:
+                - img [ref=e212]
+                - text: Private office
+              - listitem [ref=e214]:
+                - img [ref=e215]
+                - text: Furnished
+              - listitem [ref=e217]:
+                - img [ref=e218]
+                - text: High-speed Wi-Fi
+              - listitem [ref=e220]:
+                - img [ref=e221]
+                - text: Meeting room credits
+              - listitem [ref=e223]:
+                - img [ref=e224]
+                - text: Coffee & tea
+              - listitem [ref=e226]:
+                - img [ref=e227]
+                - text: 24/7 Access
+              - listitem [ref=e229]:
+                - img [ref=e230]
+                - text: Business address
+              - listitem [ref=e232]:
+                - img [ref=e233]
+                - text: Mail handling
+              - listitem [ref=e235]:
+                - img [ref=e236]
+                - text: Support team
+            - button "Choose Private Office" [ref=e238] [cursor=pointer]
+        - link "Compare all plans" [ref=e240] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/pricing
+          - button "Compare all plans" [ref=e241]:
+            - text: Compare all plans
+            - img [ref=e242]
+      - generic [ref=e246]:
+        - generic [ref=e247]: Get Started
+        - heading "Ready to find your space?" [level=2] [ref=e248]
+        - paragraph [ref=e249]: Book a tour or reserve your spot online. No commitment required — just great spaces.
+        - generic [ref=e250]:
+          - link "Browse Available Spaces" [ref=e251] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces
+            - button "Browse Available Spaces" [ref=e252]
+          - link "Book a Tour" [ref=e253] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/contact
+            - button "Book a Tour" [ref=e254]
+      - generic [ref=e256]:
+        - generic [ref=e258]:
+          - generic [ref=e259]: Journal
+          - heading "From our blog" [level=2] [ref=e260]
+          - paragraph [ref=e261]: Tips, stories, and insights from the coworking world.
+        - generic [ref=e262]:
+          - link "Hic praesentium id est ullam sed harum. Ipsam sapiente sit at odio. Et corporis reiciendis laudantium quo atque expedita omnis. Aperiam autem rem a et aperiam. Admin May 8, 2026" [ref=e264] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog/3
+            - heading "Hic praesentium id est ullam sed harum." [level=3] [ref=e265]
+            - paragraph [ref=e266]: Ipsam sapiente sit at odio. Et corporis reiciendis laudantium quo atque expedita omnis. Aperiam autem rem a et aperiam.
+            - generic [ref=e267]:
+              - generic [ref=e268]: Admin
+              - generic [ref=e270]: May 8, 2026
+          - link "Qui iure aut ut dicta maxime id. Eos quo quaerat suscipit adipisci eligendi. Vel consequatur sint asperiores neque et sapiente. Explicabo sed blanditiis sequi eligendi. Admin May 5, 2026" [ref=e272] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog/5
+            - heading "Qui iure aut ut dicta maxime id." [level=3] [ref=e273]
+            - paragraph [ref=e274]: Eos quo quaerat suscipit adipisci eligendi. Vel consequatur sint asperiores neque et sapiente. Explicabo sed blanditiis sequi eligendi.
+            - generic [ref=e275]:
+              - generic [ref=e276]: Admin
+              - generic [ref=e278]: May 5, 2026
+          - link "Tempora est quia ut unde et voluptatum laudantium. Officia ipsum aperiam esse. Et incidunt earum facere officia. Itaque exercitationem repellendus et laudantium odit. Quia eveniet deleniti quaerat aut eos. Admin Apr 29, 2026" [ref=e280] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog/4
+            - heading "Tempora est quia ut unde et voluptatum laudantium." [level=3] [ref=e281]
+            - paragraph [ref=e282]: Officia ipsum aperiam esse. Et incidunt earum facere officia. Itaque exercitationem repellendus et laudantium odit. Quia eveniet deleniti quaerat aut eos.
+            - generic [ref=e283]:
+              - generic [ref=e284]: Admin
+              - generic [ref=e286]: Apr 29, 2026
+        - link "Read all articles" [ref=e288] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+          - button "Read all articles" [ref=e289]:
+            - text: Read all articles
+            - img [ref=e290]
+  - contentinfo [ref=e292]:
+    - generic [ref=e293]:
+      - generic [ref=e294]:
+        - generic [ref=e295]:
+          - generic [ref=e296]:
+            - img [ref=e298]
+            - generic [ref=e300]: CoWorkSpace
+          - paragraph [ref=e301]: Modern coworking spaces designed for productivity, connection, and growth. Join a community of innovators.
+          - generic [ref=e302]:
+            - img [ref=e304] [cursor=pointer]
+            - img [ref=e307] [cursor=pointer]
+            - img [ref=e310] [cursor=pointer]
+        - generic [ref=e312]:
+          - heading "Quick Links" [level=4] [ref=e313]
+          - generic [ref=e314]:
+            - link "Spaces" [ref=e315] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/spaces
+            - link "Pricing" [ref=e316] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/pricing
+            - link "About" [ref=e317] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/about
+            - link "Blog" [ref=e318] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog
+        - generic [ref=e319]:
+          - heading "Support" [level=4] [ref=e320]
+          - generic [ref=e321]:
+            - link "Contact" [ref=e322] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/contact
+            - generic [ref=e323]: FAQs
+            - generic [ref=e324]: Privacy Policy
+            - generic [ref=e325]: Terms of Service
+        - generic [ref=e326]:
+          - heading "Contact" [level=4] [ref=e327]
+          - generic [ref=e328]:
+            - paragraph [ref=e329]:
+              - img [ref=e330]
+              - text: hello@coworkspace.com
+            - paragraph [ref=e332]:
+              - img [ref=e333]
+              - text: +1 (555) 123-4567
+            - paragraph [ref=e335]:
+              - img [ref=e336]
+              - text: 123 Innovation St, Tech City
+      - generic [ref=e339]:
+        - paragraph [ref=e340]: © 2026 CoWorkSpace. All rights reserved.
+        - paragraph [ref=e341]: Crafted with care

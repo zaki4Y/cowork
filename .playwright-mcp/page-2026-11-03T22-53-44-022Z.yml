@@ -1,0 +1,272 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "CoWorkSpace" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e12]:
+        - link "Spaces" [ref=e13] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spaces
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/pricing
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+        - link "Blog" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/contact
+        - button "Toggle dark mode" [ref=e18] [cursor=pointer]
+        - link "Sign In" [ref=e21] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+        - link "Get Started" [ref=e22] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/register
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e26] [cursor=pointer]:
+        - generic [ref=e27]: Contents
+        - generic:
+          - generic:
+            - generic: TABLE OF CONTENTS
+            - button
+      - generic [ref=e38]:
+        - generic [ref=e39]: Premium coworking spaces
+        - heading "Find your perfect workspace" [level=1] [ref=e41]:
+          - generic [ref=e42]: Find your
+          - generic [ref=e43]: perfect
+          - generic [ref=e44]: workspace
+        - paragraph [ref=e45]: From hot desks to private offices — thoughtfully designed spaces in premium locations crafted for how you actually work.
+        - generic [ref=e46]:
+          - link [ref=e47] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces
+            - button "Browse Spaces" [ref=e48]
+          - link [ref=e49] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/pricing
+            - button "See Plans" [ref=e50]
+        - generic [ref=e51]:
+          - generic [ref=e52]: 12+ Locations
+          - generic [ref=e54]: 24/7 Access
+          - generic [ref=e56]: Instant Booking
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - generic [ref=e62]: Our Spaces
+          - heading "Browse our spaces" [level=2] [ref=e63]
+          - paragraph [ref=e64]: Each space is designed for a different way of working. Find the one that fits your rhythm.
+        - generic [ref=e65]:
+          - link "The Corner Desk Private Office The Corner Desk $25.53/hr 15 people" [ref=e67] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/1
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - img "The Corner Desk" [ref=e70]
+                - generic [ref=e72]: Private Office
+              - generic [ref=e73]:
+                - heading "The Corner Desk" [level=3] [ref=e74]
+                - generic [ref=e75]:
+                  - generic [ref=e76]: $25.53/hr
+                  - generic [ref=e77]: 15 people
+          - link "Skyline Office Virtual Office Skyline Office $34.38/hr 14 people" [ref=e79] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/2
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - img "Skyline Office" [ref=e82]
+                - generic [ref=e84]: Virtual Office
+              - generic [ref=e85]:
+                - heading "Skyline Office" [level=3] [ref=e86]
+                - generic [ref=e87]:
+                  - generic [ref=e88]: $34.38/hr
+                  - generic [ref=e89]: 14 people
+          - link "The Hive Hot Desk The Hive $33.39/hr 3 people" [ref=e91] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/3
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - img "The Hive" [ref=e94]
+                - generic [ref=e96]: Hot Desk
+              - generic [ref=e97]:
+                - heading "The Hive" [level=3] [ref=e98]
+                - generic [ref=e99]:
+                  - generic [ref=e100]: $33.39/hr
+                  - generic [ref=e101]: 3 people
+          - link "Boardroom A Virtual Office Boardroom A $7.81/hr 19 people" [ref=e103] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/4
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - img "Boardroom A" [ref=e106]
+                - generic [ref=e108]: Virtual Office
+              - generic [ref=e109]:
+                - heading "Boardroom A" [level=3] [ref=e110]
+                - generic [ref=e111]:
+                  - generic [ref=e112]: $7.81/hr
+                  - generic [ref=e113]: 19 people
+        - link [ref=e115] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spaces
+          - button "View all spaces" [ref=e116]
+      - generic [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: By the Numbers
+          - heading "Our reach in numbers" [level=2] [ref=e124]
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e127]: 0+
+            - generic [ref=e129]: Workspaces
+          - generic [ref=e130]:
+            - generic [ref=e131]: 0+
+            - generic [ref=e133]: Members
+          - generic [ref=e134]:
+            - generic [ref=e135]: "0"
+            - generic [ref=e136]: Cities
+          - generic [ref=e137]:
+            - generic [ref=e138]: 0+
+            - generic [ref=e140]: Years in business
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]: 01 / 04
+            - heading "Reviews" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - button "View review from Marcus Rivera" [ref=e150] [cursor=pointer]:
+              - img "Marcus Rivera" [ref=e151]
+            - button "View review from Emily Torres" [ref=e152] [cursor=pointer]:
+              - img "Emily Torres" [ref=e153]
+            - button "View review from James Whitfield" [ref=e154] [cursor=pointer]:
+              - img "James Whitfield" [ref=e155]
+        - img "Sarah Chen" [ref=e157]
+        - generic [ref=e158]:
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: Product Designer, Nomad Studio
+            - heading "Sarah Chen" [level=3] [ref=e162]
+            - blockquote [ref=e163]: “CoWorkSpace transformed how my team works. The spaces are beautiful, the community is genuine, and the flexibility is exactly what we needed.”
+          - generic [ref=e164]:
+            - button "Previous review" [ref=e165] [cursor=pointer]
+            - button "Next review" [ref=e168] [cursor=pointer]
+      - generic [ref=e172]:
+        - generic [ref=e174]:
+          - generic [ref=e175]: Pricing
+          - heading "Simple, transparent pricing" [level=2] [ref=e176]
+          - paragraph [ref=e177]: One plan, one price. No hidden fees, no surprises.
+        - generic [ref=e178]:
+          - generic [ref=e180]:
+            - heading "Hot Desk" [level=3] [ref=e181]
+            - paragraph [ref=e182]: Perfect for freelancers and remote workers.
+            - generic [ref=e183]:
+              - generic [ref=e184]: $199.00
+              - generic [ref=e185]: /monthly
+            - list [ref=e186]:
+              - listitem [ref=e187]: Access to hot desks
+              - listitem [ref=e190]: High-speed Wi-Fi
+              - listitem [ref=e193]: Coffee & tea
+              - listitem [ref=e196]: Community events
+              - listitem [ref=e199]: Business address
+            - button "Choose Hot Desk" [ref=e202] [cursor=pointer]
+          - generic [ref=e204]:
+            - generic: Popular
+            - heading "Fixed Desk" [level=3] [ref=e206]
+            - paragraph [ref=e207]: Your own dedicated desk in a shared workspace.
+            - generic [ref=e208]:
+              - generic [ref=e209]: $349.00
+              - generic [ref=e210]: /monthly
+            - list [ref=e211]:
+              - listitem [ref=e212]: Dedicated desk
+              - listitem [ref=e215]: Lockable storage
+              - listitem [ref=e218]: High-speed Wi-Fi
+              - listitem [ref=e221]: Coffee & tea
+              - listitem [ref=e224]: Community events
+              - listitem [ref=e227]: Business address
+              - listitem [ref=e230]: Mail handling
+            - button "Choose Fixed Desk" [ref=e233] [cursor=pointer]
+          - generic [ref=e235]:
+            - heading "Private Office" [level=3] [ref=e236]
+            - paragraph [ref=e237]: Fully furnished private office for teams.
+            - generic [ref=e238]:
+              - generic [ref=e239]: $899.00
+              - generic [ref=e240]: /monthly
+            - list [ref=e241]:
+              - listitem [ref=e242]: Private office
+              - listitem [ref=e245]: Furnished
+              - listitem [ref=e248]: High-speed Wi-Fi
+              - listitem [ref=e251]: Meeting room credits
+              - listitem [ref=e254]: Coffee & tea
+              - listitem [ref=e257]: 24/7 Access
+              - listitem [ref=e260]: Business address
+              - listitem [ref=e263]: Mail handling
+              - listitem [ref=e266]: Support team
+            - button "Choose Private Office" [ref=e269] [cursor=pointer]
+        - link [ref=e271] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/pricing
+          - button "Compare all plans" [ref=e272]
+      - generic [ref=e277]:
+        - generic [ref=e278]: Get Started
+        - heading "Ready to find your space?" [level=2] [ref=e279]
+        - paragraph [ref=e280]: Book a tour or reserve your spot online. No commitment required — just great spaces.
+        - generic [ref=e281]:
+          - link [ref=e282] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces
+            - button "Browse Available Spaces" [ref=e283]
+          - link [ref=e284] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/contact
+            - button "Book a Tour" [ref=e285]
+      - generic [ref=e287]:
+        - generic [ref=e289]:
+          - generic [ref=e290]: Journal
+          - heading "From our blog" [level=2] [ref=e291]
+          - paragraph [ref=e292]: Tips, stories, and insights from the coworking world.
+        - generic [ref=e293]:
+          - link "Designing Workspaces for Creativity and Focus Neuroscience shows that your physical environment shapes how you think. Discover the science behind workspace design that boosts both creativity and focus. Admin May 7, 2026" [ref=e295] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog/4
+            - heading "Designing Workspaces for Creativity and Focus" [level=3] [ref=e296]
+            - paragraph [ref=e297]: Neuroscience shows that your physical environment shapes how you think. Discover the science behind workspace design that boosts both creativity and focus.
+            - generic [ref=e298]:
+              - generic [ref=e299]: Admin
+              - generic [ref=e301]: May 7, 2026
+          - 'link "Networking in Coworking Spaces: A Beginner''s Guide Walking into a room full of strangers can be intimidating. Learn how to turn casual coworking encounters into meaningful professional relationships. Admin May 7, 2026" [ref=e303] [cursor=pointer]':
+            - /url: http://127.0.0.1:8000/blog/5
+            - 'heading "Networking in Coworking Spaces: A Beginner''s Guide" [level=3] [ref=e304]'
+            - paragraph [ref=e305]: Walking into a room full of strangers can be intimidating. Learn how to turn casual coworking encounters into meaningful professional relationships.
+            - generic [ref=e306]:
+              - generic [ref=e307]: Admin
+              - generic [ref=e309]: May 7, 2026
+          - link "How to Choose the Right Workspace for Your Team Choosing a workspace is one of the most impactful decisions for your team culture. Here is a practical framework to find the perfect fit. Admin Apr 24, 2026" [ref=e311] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog/3
+            - heading "How to Choose the Right Workspace for Your Team" [level=3] [ref=e312]
+            - paragraph [ref=e313]: Choosing a workspace is one of the most impactful decisions for your team culture. Here is a practical framework to find the perfect fit.
+            - generic [ref=e314]:
+              - generic [ref=e315]: Admin
+              - generic [ref=e317]: Apr 24, 2026
+        - link [ref=e319] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+          - button "Read all articles" [ref=e320]
+  - contentinfo [ref=e323]:
+    - generic [ref=e324]:
+      - generic [ref=e325]:
+        - generic [ref=e326]:
+          - generic [ref=e327]: CoWorkSpace
+          - paragraph [ref=e332]: Modern coworking spaces designed for productivity, connection, and growth. Join a community of innovators.
+          - generic [ref=e333]:
+            - generic [ref=e334] [cursor=pointer]
+            - generic [ref=e337] [cursor=pointer]
+            - generic [ref=e340] [cursor=pointer]
+        - generic [ref=e343]:
+          - heading "Quick Links" [level=4] [ref=e344]
+          - generic [ref=e345]:
+            - link "Spaces" [ref=e346] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/spaces
+            - link "Pricing" [ref=e347] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/pricing
+            - link "About" [ref=e348] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/about
+            - link "Blog" [ref=e349] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog
+        - generic [ref=e350]:
+          - heading "Support" [level=4] [ref=e351]
+          - generic [ref=e352]:
+            - link "Contact" [ref=e353] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/contact
+            - generic [ref=e354]: FAQs
+            - generic [ref=e355]: Privacy Policy
+            - generic [ref=e356]: Terms of Service
+        - generic [ref=e357]:
+          - heading "Contact" [level=4] [ref=e358]
+          - generic [ref=e359]:
+            - paragraph [ref=e360]: hello@coworkspace.com
+            - paragraph [ref=e363]: +1 (555) 123-4567
+            - paragraph [ref=e366]: 123 Innovation St, Tech City
+      - generic [ref=e370]:
+        - paragraph [ref=e371]: © 2026 CoWorkSpace. All rights reserved.
+        - paragraph [ref=e372]: Crafted with care

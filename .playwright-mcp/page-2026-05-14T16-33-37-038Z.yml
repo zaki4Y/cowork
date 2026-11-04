@@ -1,0 +1,222 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "CoWorkSpace" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+      - generic [ref=e12]:
+        - link "Spaces" [ref=e13] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spaces
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/pricing
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+        - link "Blog" [ref=e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/contact
+        - button "Toggle dark mode" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - link "Dashboard" [ref=e21] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/dashboard
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: Find Your Space
+        - heading "Our Spaces" [level=1] [ref=e29]
+        - paragraph [ref=e30]: Discover the perfect workspace tailored to your needs, from hot desks to private offices.
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: Space Type
+          - combobox [ref=e36]:
+            - option "All Types" [selected]
+            - option "Hot Desk"
+            - option "Private Office"
+            - option "Meeting Room"
+            - option "Virtual Office"
+        - generic [ref=e37]:
+          - generic [ref=e38]: Min Capacity
+          - spinbutton [ref=e39]
+        - button "Apply Filters" [ref=e40] [cursor=pointer]
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - link "sit incidunt minus Virtual Office Up to 18 sit incidunt minus Sed rerum voluptatem veniam nulla ipsa. Rerum saepe unde delectus. Et praesentium quia sed itaque sed qui et. Quis id voluptas corrupti et molestiae. Consequatur et et et quibusdam dolorum quia. Quia voluptatum natus et adipisci ea eum laudantium. Quia commodi provident incidunt dolorem rem ipsam. Praesentium aut quis sit tempore. Voluptatem repudiandae velit omnis aperiam et. Voluptatum voluptate et numquam ea ratione quisquam repudiandae. Hic eligendi reiciendis doloremque. Aspernatur eius non maiores et. Ab qui quis velit consequatur. Air Conditioning Kitchen Security 24/7 Access +1 more $40.76/hr Book Now" [ref=e45] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/1
+            - generic [ref=e46]:
+              - generic [ref=e47]:
+                - img "sit incidunt minus" [ref=e48]
+                - generic [ref=e50]: Virtual Office
+                - generic [ref=e52]: Up to 18
+              - generic [ref=e53]:
+                - heading "sit incidunt minus" [level=3] [ref=e54]
+                - paragraph [ref=e55]: Sed rerum voluptatem veniam nulla ipsa. Rerum saepe unde delectus. Et praesentium quia sed itaque sed qui et. Quis id voluptas corrupti et molestiae. Consequatur et et et quibusdam dolorum quia. Quia voluptatum natus et adipisci ea eum laudantium. Quia commodi provident incidunt dolorem rem ipsam. Praesentium aut quis sit tempore. Voluptatem repudiandae velit omnis aperiam et. Voluptatum voluptate et numquam ea ratione quisquam repudiandae. Hic eligendi reiciendis doloremque. Aspernatur eius non maiores et. Ab qui quis velit consequatur.
+                - generic [ref=e56]:
+                  - generic [ref=e57]: Air Conditioning
+                  - generic [ref=e58]: Kitchen
+                  - generic [ref=e59]: Security
+                  - generic [ref=e60]: 24/7 Access
+                  - generic [ref=e61]: +1 more
+                - generic [ref=e62]:
+                  - generic [ref=e63]: $40.76/hr
+                  - generic [ref=e64]:
+                    - text: Book Now
+                    - img [ref=e65]
+          - link "corrupti ipsum maxime Hot Desk Up to 2 corrupti ipsum maxime Dolorum occaecati in cupiditate molestiae et qui modi. Placeat eos placeat molestiae enim facilis fugiat ratione. Perspiciatis nobis adipisci iure occaecati velit. Praesentium at quis qui qui. Magnam aut libero vero eveniet quis quo. Autem rerum aliquid voluptatum dignissimos sint ratione et. Consequatur rerum non nihil quia illum. Fugit nemo et velit quasi rerum. Doloribus quia omnis sit expedita itaque animi. Neque vel et enim porro id. Velit est laboriosam inventore aut hic. Illum unde aut culpa dicta. Wi-Fi Air Conditioning Printer Kitchen +2 more $35.27/hr Book Now" [ref=e68] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/2
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - img "corrupti ipsum maxime" [ref=e71]
+                - generic [ref=e73]: Hot Desk
+                - generic [ref=e75]: Up to 2
+              - generic [ref=e76]:
+                - heading "corrupti ipsum maxime" [level=3] [ref=e77]
+                - paragraph [ref=e78]: Dolorum occaecati in cupiditate molestiae et qui modi. Placeat eos placeat molestiae enim facilis fugiat ratione. Perspiciatis nobis adipisci iure occaecati velit. Praesentium at quis qui qui. Magnam aut libero vero eveniet quis quo. Autem rerum aliquid voluptatum dignissimos sint ratione et. Consequatur rerum non nihil quia illum. Fugit nemo et velit quasi rerum. Doloribus quia omnis sit expedita itaque animi. Neque vel et enim porro id. Velit est laboriosam inventore aut hic. Illum unde aut culpa dicta.
+                - generic [ref=e79]:
+                  - generic [ref=e80]: Wi-Fi
+                  - generic [ref=e81]: Air Conditioning
+                  - generic [ref=e82]: Printer
+                  - generic [ref=e83]: Kitchen
+                  - generic [ref=e84]: +2 more
+                - generic [ref=e85]:
+                  - generic [ref=e86]: $35.27/hr
+                  - generic [ref=e87]:
+                    - text: Book Now
+                    - img [ref=e88]
+          - link "qui quis minus Virtual Office Up to 4 qui quis minus Itaque suscipit et qui ut. Ut error culpa sunt ut. Sed neque quis impedit dicta animi rerum porro aut. Ducimus odio officia voluptatem vero esse aut eos. At voluptas et deserunt aut aut et. Assumenda hic labore id eaque beatae optio hic et. Laborum error deleniti ipsum. Et ex omnis excepturi eveniet. Eius exercitationem qui tenetur alias itaque laborum. Quibusdam cupiditate iste dolorem aut veritatis neque possimus. Nesciunt architecto omnis exercitationem natus nihil occaecati tempore. Rerum consequatur dignissimos perspiciatis enim qui libero quia quis. Wi-Fi Parking Printer Lounge Area $44.29/hr Book Now" [ref=e91] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/3
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - img "qui quis minus" [ref=e94]
+                - generic [ref=e96]: Virtual Office
+                - generic [ref=e98]: Up to 4
+              - generic [ref=e99]:
+                - heading "qui quis minus" [level=3] [ref=e100]
+                - paragraph [ref=e101]: Itaque suscipit et qui ut. Ut error culpa sunt ut. Sed neque quis impedit dicta animi rerum porro aut. Ducimus odio officia voluptatem vero esse aut eos. At voluptas et deserunt aut aut et. Assumenda hic labore id eaque beatae optio hic et. Laborum error deleniti ipsum. Et ex omnis excepturi eveniet. Eius exercitationem qui tenetur alias itaque laborum. Quibusdam cupiditate iste dolorem aut veritatis neque possimus. Nesciunt architecto omnis exercitationem natus nihil occaecati tempore. Rerum consequatur dignissimos perspiciatis enim qui libero quia quis.
+                - generic [ref=e102]:
+                  - generic [ref=e103]: Wi-Fi
+                  - generic [ref=e104]: Parking
+                  - generic [ref=e105]: Printer
+                  - generic [ref=e106]: Lounge Area
+                - generic [ref=e107]:
+                  - generic [ref=e108]: $44.29/hr
+                  - generic [ref=e109]:
+                    - text: Book Now
+                    - img [ref=e110]
+          - link "aspernatur natus aut Hot Desk Up to 12 aspernatur natus aut In ipsum dignissimos possimus eos. Eum pariatur eum voluptatibus quod eos ab accusamus. Commodi at ipsum voluptates. Unde aspernatur repellat deleniti consequuntur natus. Consequatur qui consequatur id sed suscipit dolor dolor in. Et ut quis mollitia deleniti temporibus et fugit. Odit aliquam fugit consequatur facilis et dolores. Modi dolorum quo blanditiis nobis dolor eos aut. A error nostrum nihil aliquid sunt cum dignissimos. Culpa qui voluptatibus explicabo omnis voluptates. Coffee Machine Parking Kitchen Lounge Area $18.70/hr Book Now" [ref=e113] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/4
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - img "aspernatur natus aut" [ref=e116]
+                - generic [ref=e118]: Hot Desk
+                - generic [ref=e120]: Up to 12
+              - generic [ref=e121]:
+                - heading "aspernatur natus aut" [level=3] [ref=e122]
+                - paragraph [ref=e123]: In ipsum dignissimos possimus eos. Eum pariatur eum voluptatibus quod eos ab accusamus. Commodi at ipsum voluptates. Unde aspernatur repellat deleniti consequuntur natus. Consequatur qui consequatur id sed suscipit dolor dolor in. Et ut quis mollitia deleniti temporibus et fugit. Odit aliquam fugit consequatur facilis et dolores. Modi dolorum quo blanditiis nobis dolor eos aut. A error nostrum nihil aliquid sunt cum dignissimos. Culpa qui voluptatibus explicabo omnis voluptates.
+                - generic [ref=e124]:
+                  - generic [ref=e125]: Coffee Machine
+                  - generic [ref=e126]: Parking
+                  - generic [ref=e127]: Kitchen
+                  - generic [ref=e128]: Lounge Area
+                - generic [ref=e129]:
+                  - generic [ref=e130]: $18.70/hr
+                  - generic [ref=e131]:
+                    - text: Book Now
+                    - img [ref=e132]
+          - link "amet voluptas voluptatibus Hot Desk Up to 3 amet voluptas voluptatibus Qui neque qui rerum totam. Voluptatem voluptatibus quisquam ut debitis et dolores. Praesentium neque iste asperiores ut voluptates. Illum iusto qui blanditiis et. Similique dolor dolorum iste voluptatibus aut perspiciatis. Repellendus autem nihil voluptatem voluptatibus. Et delectus dignissimos ratione et voluptas. Id qui quod officiis esse adipisci qui inventore. Expedita dolores soluta labore illum eligendi aut. Air Conditioning Parking Meeting Room 24/7 Access +1 more $19.23/hr Book Now" [ref=e135] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/5
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - img "amet voluptas voluptatibus" [ref=e138]
+                - generic [ref=e140]: Hot Desk
+                - generic [ref=e142]: Up to 3
+              - generic [ref=e143]:
+                - heading "amet voluptas voluptatibus" [level=3] [ref=e144]
+                - paragraph [ref=e145]: Qui neque qui rerum totam. Voluptatem voluptatibus quisquam ut debitis et dolores. Praesentium neque iste asperiores ut voluptates. Illum iusto qui blanditiis et. Similique dolor dolorum iste voluptatibus aut perspiciatis. Repellendus autem nihil voluptatem voluptatibus. Et delectus dignissimos ratione et voluptas. Id qui quod officiis esse adipisci qui inventore. Expedita dolores soluta labore illum eligendi aut.
+                - generic [ref=e146]:
+                  - generic [ref=e147]: Air Conditioning
+                  - generic [ref=e148]: Parking
+                  - generic [ref=e149]: Meeting Room
+                  - generic [ref=e150]: 24/7 Access
+                  - generic [ref=e151]: +1 more
+                - generic [ref=e152]:
+                  - generic [ref=e153]: $19.23/hr
+                  - generic [ref=e154]:
+                    - text: Book Now
+                    - img [ref=e155]
+          - link "velit ducimus et Hot Desk Up to 11 velit ducimus et Voluptas sed cupiditate et omnis. Delectus sit impedit placeat voluptates omnis consectetur et. Omnis rem id omnis vel quam. Voluptates a quae aut. Non qui harum quaerat et est aut atque. Ea culpa architecto laudantium ducimus illum neque occaecati. Soluta asperiores cupiditate unde nemo. Sint amet possimus sint ut eius. Wi-Fi Air Conditioning Coffee Machine Kitchen +2 more $40.80/hr Book Now" [ref=e158] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/6
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - img "velit ducimus et" [ref=e161]
+                - generic [ref=e163]: Hot Desk
+                - generic [ref=e165]: Up to 11
+              - generic [ref=e166]:
+                - heading "velit ducimus et" [level=3] [ref=e167]
+                - paragraph [ref=e168]: Voluptas sed cupiditate et omnis. Delectus sit impedit placeat voluptates omnis consectetur et. Omnis rem id omnis vel quam. Voluptates a quae aut. Non qui harum quaerat et est aut atque. Ea culpa architecto laudantium ducimus illum neque occaecati. Soluta asperiores cupiditate unde nemo. Sint amet possimus sint ut eius.
+                - generic [ref=e169]:
+                  - generic [ref=e170]: Wi-Fi
+                  - generic [ref=e171]: Air Conditioning
+                  - generic [ref=e172]: Coffee Machine
+                  - generic [ref=e173]: Kitchen
+                  - generic [ref=e174]: +2 more
+                - generic [ref=e175]:
+                  - generic [ref=e176]: $40.80/hr
+                  - generic [ref=e177]:
+                    - text: Book Now
+                    - img [ref=e178]
+        - generic [ref=e180]:
+          - link "« Previous" [ref=e181]:
+            - /url: ""
+          - link "1" [ref=e182] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces?page=1
+          - link "2" [ref=e183] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces?page=2
+          - link "Next »" [ref=e184] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces?page=2
+  - contentinfo [ref=e185]:
+    - generic [ref=e186]:
+      - generic [ref=e187]:
+        - generic [ref=e188]:
+          - generic [ref=e189]:
+            - img [ref=e191]
+            - generic [ref=e193]: CoWorkSpace
+          - paragraph [ref=e194]: Modern coworking spaces designed for productivity, connection, and growth. Join a community of innovators.
+          - generic [ref=e195]:
+            - img [ref=e197] [cursor=pointer]
+            - img [ref=e200] [cursor=pointer]
+            - img [ref=e203] [cursor=pointer]
+        - generic [ref=e205]:
+          - heading "Quick Links" [level=4] [ref=e206]
+          - generic [ref=e207]:
+            - link "Spaces" [ref=e208] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/spaces
+            - link "Pricing" [ref=e209] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/pricing
+            - link "About" [ref=e210] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/about
+            - link "Blog" [ref=e211] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog
+        - generic [ref=e212]:
+          - heading "Support" [level=4] [ref=e213]
+          - generic [ref=e214]:
+            - link "Contact" [ref=e215] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/contact
+            - generic [ref=e216]: FAQs
+            - generic [ref=e217]: Privacy Policy
+            - generic [ref=e218]: Terms of Service
+        - generic [ref=e219]:
+          - heading "Contact" [level=4] [ref=e220]
+          - generic [ref=e221]:
+            - paragraph [ref=e222]:
+              - img [ref=e223]
+              - text: hello@coworkspace.com
+            - paragraph [ref=e225]:
+              - img [ref=e226]
+              - text: +1 (555) 123-4567
+            - paragraph [ref=e228]:
+              - img [ref=e229]
+              - text: 123 Innovation St, Tech City
+      - generic [ref=e232]:
+        - paragraph [ref=e233]: © 2026 CoWorkSpace. All rights reserved.
+        - paragraph [ref=e234]: Crafted with care

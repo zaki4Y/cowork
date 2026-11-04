@@ -1,0 +1,53 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "CoWorkSpace" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e12]: CoWorkSpace
+        - generic [ref=e13]:
+          - link "Dashboard" [ref=e14] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard
+          - link "My Bookings" [ref=e15] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/my-bookings
+      - generic [ref=e16]:
+        - button "Toggle dark mode" [ref=e17] [cursor=pointer]:
+          - img [ref=e18]
+        - button "A" [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: A
+          - img [ref=e23]
+  - heading "Dashboard" [level=2] [ref=e27]
+  - main [ref=e28]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - heading "Welcome back, Admin!" [level=1] [ref=e33]
+        - paragraph [ref=e34]: Manage your coworking space experience from here.
+      - generic [ref=e35]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - img [ref=e40]
+            - generic [ref=e42]:
+              - heading "My Bookings" [level=3] [ref=e43]
+              - paragraph [ref=e44]: View and manage your bookings
+          - link "View Bookings" [ref=e46] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/my-bookings
+            - button "View Bookings" [ref=e47]
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - img [ref=e52]
+            - generic [ref=e54]:
+              - heading "Profile" [level=3] [ref=e55]
+              - paragraph [ref=e56]: Update your personal information
+          - link "Edit Profile" [ref=e58] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/profile
+            - button "Edit Profile" [ref=e59]
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - img [ref=e64]
+            - generic [ref=e66]:
+              - heading "Browse Spaces" [level=3] [ref=e67]
+              - paragraph [ref=e68]: Explore available coworking spaces
+          - link "Explore" [ref=e70] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces
+            - button "Explore" [ref=e71]

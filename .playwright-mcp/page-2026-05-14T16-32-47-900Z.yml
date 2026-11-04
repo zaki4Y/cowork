@@ -1,0 +1,136 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "CoWorkSpace Admin" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+        - generic [ref=e12]: Admin
+      - generic [ref=e13]:
+        - button "Toggle dark mode" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+        - link "View Site" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+          - text: View Site
+        - generic [ref=e20]:
+          - generic [ref=e21]: A
+          - generic [ref=e22]: Admin
+          - button [ref=e23] [cursor=pointer]:
+            - img [ref=e24]
+  - complementary [ref=e26]:
+    - navigation [ref=e27]:
+      - link "Dashboard" [ref=e28] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin
+        - img [ref=e29]
+        - text: Dashboard
+      - link "Spaces" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/spaces
+        - img [ref=e32]
+        - text: Spaces
+      - link "Bookings" [ref=e34] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/bookings
+        - img [ref=e35]
+        - text: Bookings
+      - link "Users" [ref=e37] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/users
+        - img [ref=e38]
+        - text: Users
+      - link "Blog" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog
+        - img [ref=e41]
+        - text: Blog
+      - link "Contacts" [ref=e43] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/contacts
+        - img [ref=e44]
+        - text: Contacts
+  - main [ref=e46]:
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - heading "Blog Posts" [level=1] [ref=e52]
+          - paragraph [ref=e53]: Manage blog content.
+        - link "Create New Post" [ref=e54] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/blog/create
+          - button "Create New Post" [ref=e55]
+      - table [ref=e58]:
+        - rowgroup [ref=e59]:
+          - row "Title Author Status Published At Actions" [ref=e60]:
+            - columnheader "Title" [ref=e61]
+            - columnheader "Author" [ref=e62]
+            - columnheader "Status" [ref=e63]
+            - columnheader "Published At" [ref=e64]
+            - columnheader "Actions" [ref=e65]
+        - rowgroup [ref=e66]:
+          - row "Animi quisquam et sunt odit non. Admin Published 2026-03-09T12:45:37.000000Z Edit Delete" [ref=e67]:
+            - cell "Animi quisquam et sunt odit non." [ref=e68]
+            - cell "Admin" [ref=e69]
+            - cell "Published" [ref=e70]:
+              - generic [ref=e71]: Published
+            - cell "2026-03-09T12:45:37.000000Z" [ref=e72]
+            - cell "Edit Delete" [ref=e73]:
+              - generic [ref=e74]:
+                - link "Edit" [ref=e75] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/blog/1/edit
+                  - button "Edit" [ref=e76]
+                - button "Delete" [ref=e77] [cursor=pointer]
+          - row "Beatae rem modi quibusdam laboriosam magni quia tenetur. Admin Published 2026-04-24T03:34:38.000000Z Edit Delete" [ref=e78]:
+            - cell "Beatae rem modi quibusdam laboriosam magni quia tenetur." [ref=e79]
+            - cell "Admin" [ref=e80]
+            - cell "Published" [ref=e81]:
+              - generic [ref=e82]: Published
+            - cell "2026-04-24T03:34:38.000000Z" [ref=e83]
+            - cell "Edit Delete" [ref=e84]:
+              - generic [ref=e85]:
+                - link "Edit" [ref=e86] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/blog/2/edit
+                  - button "Edit" [ref=e87]
+                - button "Delete" [ref=e88] [cursor=pointer]
+          - row "Hic praesentium id est ullam sed harum. Admin Published 2026-05-08T21:49:29.000000Z Edit Delete" [ref=e89]:
+            - cell "Hic praesentium id est ullam sed harum." [ref=e90]
+            - cell "Admin" [ref=e91]
+            - cell "Published" [ref=e92]:
+              - generic [ref=e93]: Published
+            - cell "2026-05-08T21:49:29.000000Z" [ref=e94]
+            - cell "Edit Delete" [ref=e95]:
+              - generic [ref=e96]:
+                - link "Edit" [ref=e97] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/blog/3/edit
+                  - button "Edit" [ref=e98]
+                - button "Delete" [ref=e99] [cursor=pointer]
+          - row "Tempora est quia ut unde et voluptatum laudantium. Admin Published 2026-04-29T17:03:20.000000Z Edit Delete" [ref=e100]:
+            - cell "Tempora est quia ut unde et voluptatum laudantium." [ref=e101]
+            - cell "Admin" [ref=e102]
+            - cell "Published" [ref=e103]:
+              - generic [ref=e104]: Published
+            - cell "2026-04-29T17:03:20.000000Z" [ref=e105]
+            - cell "Edit Delete" [ref=e106]:
+              - generic [ref=e107]:
+                - link "Edit" [ref=e108] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/blog/4/edit
+                  - button "Edit" [ref=e109]
+                - button "Delete" [ref=e110] [cursor=pointer]
+          - row "Qui iure aut ut dicta maxime id. Admin Published 2026-05-05T16:06:39.000000Z Edit Delete" [ref=e111]:
+            - cell "Qui iure aut ut dicta maxime id." [ref=e112]
+            - cell "Admin" [ref=e113]
+            - cell "Published" [ref=e114]:
+              - generic [ref=e115]: Published
+            - cell "2026-05-05T16:06:39.000000Z" [ref=e116]
+            - cell "Edit Delete" [ref=e117]:
+              - generic [ref=e118]:
+                - link "Edit" [ref=e119] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/blog/5/edit
+                  - button "Edit" [ref=e120]
+                - button "Delete" [ref=e121] [cursor=pointer]
+          - row "Adipisci aut enim autem quia accusamus. Admin Published 2026-04-09T09:25:53.000000Z Edit Delete" [ref=e122]:
+            - cell "Adipisci aut enim autem quia accusamus." [ref=e123]
+            - cell "Admin" [ref=e124]
+            - cell "Published" [ref=e125]:
+              - generic [ref=e126]: Published
+            - cell "2026-04-09T09:25:53.000000Z" [ref=e127]
+            - cell "Edit Delete" [ref=e128]:
+              - generic [ref=e129]:
+                - link "Edit" [ref=e130] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/blog/6/edit
+                  - button "Edit" [ref=e131]
+                - button "Delete" [ref=e132] [cursor=pointer]

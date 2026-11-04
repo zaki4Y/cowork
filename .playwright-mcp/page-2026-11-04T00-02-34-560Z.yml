@@ -1,0 +1,40 @@
+- generic [ref=f5e3]:
+  - generic [ref=f5e5]:
+    - generic [ref=f5e6]:
+      - generic [ref=f5e7]:
+        - generic [ref=f5e8]: Aurelia
+        - heading "Create an account" [level=1] [ref=f5e9]
+        - paragraph [ref=f5e10]: Enter your details below to sign up
+      - generic [ref=f5e11]:
+        - generic [ref=f5e12]:
+          - generic [ref=f5e13]: Full Name
+          - textbox "Full Name" [ref=f5e14]:
+            - /placeholder: John Doe
+        - generic [ref=f5e15]:
+          - generic [ref=f5e16]: Email
+          - textbox "Email" [ref=f5e17]:
+            - /placeholder: m@example.com
+        - generic [ref=f5e18]:
+          - generic [ref=f5e19]: Password
+          - generic [ref=f5e20]:
+            - textbox "Password" [ref=f5e21]
+            - button "Show password" [ref=f5e22] [cursor=pointer]
+        - generic [ref=f5e26]:
+          - generic [ref=f5e27]: Confirm Password
+          - textbox "Confirm Password" [ref=f5e28]:
+            - /placeholder: Repeat your password
+        - button "Sign Up" [ref=f5e29] [cursor=pointer]
+    - generic [ref=f5e30]:
+      - text: Already have an account?
+      - link "Sign in" [ref=f5e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/login
+    - generic [ref=f5e32]: Or continue with
+    - button [ref=f5e33] [cursor=pointer]:
+      - img "Google icon" [ref=f5e34]
+      - text: Continue with Google
+  - blockquote [ref=f5e38]:
+    - paragraph [ref=f5e39]:
+      - text: “
+      - generic [ref=f5e40]: "|"
+      - text: ”
+    - generic [ref=f5e41]: — Aurelia

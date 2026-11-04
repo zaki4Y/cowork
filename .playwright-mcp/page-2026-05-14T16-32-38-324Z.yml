@@ -1,0 +1,139 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "CoWorkSpace Admin" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+        - generic [ref=e12]: Admin
+      - generic [ref=e13]:
+        - button "Toggle dark mode" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+        - link "View Site" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+          - text: View Site
+        - generic [ref=e20]:
+          - generic [ref=e21]: A
+          - generic [ref=e22]: Admin
+          - button [ref=e23] [cursor=pointer]:
+            - img [ref=e24]
+  - complementary [ref=e26]:
+    - navigation [ref=e27]:
+      - link "Dashboard" [ref=e28] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin
+        - img [ref=e29]
+        - text: Dashboard
+      - link "Spaces" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/spaces
+        - img [ref=e32]
+        - text: Spaces
+      - link "Bookings" [ref=e34] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/bookings
+        - img [ref=e35]
+        - text: Bookings
+      - link "Users" [ref=e37] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/users
+        - img [ref=e38]
+        - text: Users
+      - link "Blog" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog
+        - img [ref=e41]
+        - text: Blog
+      - link "Contacts" [ref=e43] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/contacts
+        - img [ref=e44]
+        - text: Contacts
+  - main [ref=e46]:
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - heading "Users" [level=1] [ref=e50]
+        - paragraph [ref=e51]: Manage all registered users.
+      - table [ref=e54]:
+        - rowgroup [ref=e55]:
+          - row "Name Email Role Joined Actions" [ref=e56]:
+            - columnheader "Name" [ref=e57]
+            - columnheader "Email" [ref=e58]
+            - columnheader "Role" [ref=e59]
+            - columnheader "Joined" [ref=e60]
+            - columnheader "Actions" [ref=e61]
+        - rowgroup [ref=e62]:
+          - row "Admin admin@cowork.com admin 2026-05-13T15:32:35.000000Z" [ref=e63]:
+            - cell "Admin" [ref=e64]
+            - cell "admin@cowork.com" [ref=e65]
+            - cell "admin" [ref=e66]:
+              - generic [ref=e67]: admin
+            - cell "2026-05-13T15:32:35.000000Z" [ref=e68]
+            - cell [ref=e69]
+          - row "Member member@cowork.com member 2026-05-13T15:32:35.000000Z Delete" [ref=e70]:
+            - cell "Member" [ref=e71]
+            - cell "member@cowork.com" [ref=e72]
+            - cell "member" [ref=e73]:
+              - generic [ref=e74]: member
+            - cell "2026-05-13T15:32:35.000000Z" [ref=e75]
+            - cell "Delete" [ref=e76]:
+              - button "Delete" [ref=e77] [cursor=pointer]
+          - row "Asha West darian.hoeger@example.org member 2026-05-13T15:32:35.000000Z Delete" [ref=e78]:
+            - cell "Asha West" [ref=e79]
+            - cell "darian.hoeger@example.org" [ref=e80]
+            - cell "member" [ref=e81]:
+              - generic [ref=e82]: member
+            - cell "2026-05-13T15:32:35.000000Z" [ref=e83]
+            - cell "Delete" [ref=e84]:
+              - button "Delete" [ref=e85] [cursor=pointer]
+          - row "Alphonso Lindgren anderson.juana@example.net member 2026-05-13T15:32:35.000000Z Delete" [ref=e86]:
+            - cell "Alphonso Lindgren" [ref=e87]
+            - cell "anderson.juana@example.net" [ref=e88]
+            - cell "member" [ref=e89]:
+              - generic [ref=e90]: member
+            - cell "2026-05-13T15:32:35.000000Z" [ref=e91]
+            - cell "Delete" [ref=e92]:
+              - button "Delete" [ref=e93] [cursor=pointer]
+          - row "Shanny Mraz roslyn.bartell@example.com member 2026-05-13T15:32:35.000000Z Delete" [ref=e94]:
+            - cell "Shanny Mraz" [ref=e95]
+            - cell "roslyn.bartell@example.com" [ref=e96]
+            - cell "member" [ref=e97]:
+              - generic [ref=e98]: member
+            - cell "2026-05-13T15:32:35.000000Z" [ref=e99]
+            - cell "Delete" [ref=e100]:
+              - button "Delete" [ref=e101] [cursor=pointer]
+          - row "Peter Ruecker yundt.shania@example.com member 2026-05-13T15:32:35.000000Z Delete" [ref=e102]:
+            - cell "Peter Ruecker" [ref=e103]
+            - cell "yundt.shania@example.com" [ref=e104]
+            - cell "member" [ref=e105]:
+              - generic [ref=e106]: member
+            - cell "2026-05-13T15:32:35.000000Z" [ref=e107]
+            - cell "Delete" [ref=e108]:
+              - button "Delete" [ref=e109] [cursor=pointer]
+          - row "Mrs. Hailie Robel xeffertz@example.net member 2026-05-13T15:32:35.000000Z Delete" [ref=e110]:
+            - cell "Mrs. Hailie Robel" [ref=e111]
+            - cell "xeffertz@example.net" [ref=e112]
+            - cell "member" [ref=e113]:
+              - generic [ref=e114]: member
+            - cell "2026-05-13T15:32:35.000000Z" [ref=e115]
+            - cell "Delete" [ref=e116]:
+              - button "Delete" [ref=e117] [cursor=pointer]
+          - row "Lucas Considine IV rosella.considine@example.net member 2026-05-13T15:32:35.000000Z Delete" [ref=e118]:
+            - cell "Lucas Considine IV" [ref=e119]
+            - cell "rosella.considine@example.net" [ref=e120]
+            - cell "member" [ref=e121]:
+              - generic [ref=e122]: member
+            - cell "2026-05-13T15:32:35.000000Z" [ref=e123]
+            - cell "Delete" [ref=e124]:
+              - button "Delete" [ref=e125] [cursor=pointer]
+          - row "Mrs. Emmanuelle Casper hudson.anastasia@example.org member 2026-05-13T15:32:35.000000Z Delete" [ref=e126]:
+            - cell "Mrs. Emmanuelle Casper" [ref=e127]
+            - cell "hudson.anastasia@example.org" [ref=e128]
+            - cell "member" [ref=e129]:
+              - generic [ref=e130]: member
+            - cell "2026-05-13T15:32:35.000000Z" [ref=e131]
+            - cell "Delete" [ref=e132]:
+              - button "Delete" [ref=e133] [cursor=pointer]
+          - row "Delbert Casper jazmyn.ratke@example.org member 2026-05-13T15:32:35.000000Z Delete" [ref=e134]:
+            - cell "Delbert Casper" [ref=e135]
+            - cell "jazmyn.ratke@example.org" [ref=e136]
+            - cell "member" [ref=e137]:
+              - generic [ref=e138]: member
+            - cell "2026-05-13T15:32:35.000000Z" [ref=e139]
+            - cell "Delete" [ref=e140]:
+              - button "Delete" [ref=e141] [cursor=pointer]

@@ -1,11 +1,265 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
+@layer base {
+    :root {
+        /* AURELIA — quiet luxury editorial system */
+        --color-bg: #F5EFE6;
+        --color-surface: #FDFBF7;
+        --color-subtle: #EDE5D8;
+        --color-border: #E2D8CA;
+        --color-text: #2E241B;
+        --color-text-secondary: #7C6F62;
+        --color-brand: #33261C;
+        --color-brand-light: #9A6B3F;
+        --color-brand-subtle: #F0E6D8;
+        --color-accent: #9A6B3F;
+        --color-accent-subtle: #EFE3D3;
+        --grain-opacity: 0.022;
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+        --background: #F5EFE6;
+        --foreground: #2E241B;
+        --card: #FDFBF7;
+        --card-foreground: #2E241B;
+        --primary: #33261C;
+        --primary-foreground: #F5EFE6;
+        --secondary: #EDE5D8;
+        --secondary-foreground: #2E241B;
+        --muted: #EDE5D8;
+        --muted-foreground: #7C6F62;
+        --accent: #EDE5D8;
+        --accent-foreground: #2E241B;
+        --destructive: #B3402E;
+        --destructive-foreground: #FDFBF7;
+        --border: #E2D8CA;
+        --input: #E2D8CA;
+        --ring: #9A6B3F;
+        --radius: 0.5rem;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply antialiased;
+        background-color: var(--color-bg);
+        color: var(--color-text);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::selection {
+        background-color: rgba(154, 107, 63, 0.22);
+        color: var(--color-text);
+    }
+
+    ::-webkit-scrollbar {
+        @apply w-2;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--color-border);
+        border-radius: 999px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: var(--color-text-secondary);
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        @apply opacity-40 cursor-pointer;
+    }
+}
+
+@layer components {
+    .grain-overlay {
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 9999;
+        opacity: var(--grain-opacity);
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+    }
+
+    .text-balance {
+        text-wrap: balance;
+    }
+
+    .text-pretty {
+        text-wrap: pretty;
+    }
+
+    .premium-ring {
+        @apply ring-1 ring-inset;
+        ring-color: rgba(51, 38, 28, 0.06);
+    }
+
+    .shimmer-bg {
+        background: linear-gradient(
+            90deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.4) 50%,
+            transparent 100%
+        );
+        background-size: 200% 100%;
+    }
+
+    .nav-blur {
+        backdrop-filter: blur(16px) saturate(1.2);
+        -webkit-backdrop-filter: blur(16px) saturate(1.2);
+    }
+
+    .section-divider {
+        height: 1px;
+        background: linear-gradient(
+            to right,
+            transparent,
+            var(--color-border),
+            transparent
+        );
+    }
+
+    .deco-dot {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: var(--color-accent);
+        display: inline-block;
+    }
+
+    /* Editorial eyebrow — small caps label above serif headlines */
+    .eyebrow {
+        @apply inline-flex items-center gap-2.5 text-[11px] font-medium uppercase;
+        letter-spacing: 0.28em;
+        color: var(--color-text-secondary);
+    }
+
+    .admin-row {
+        border-top: 1px solid var(--color-border);
+    }
+
+    .admin-row:hover {
+        background-color: var(--color-subtle);
+    }
+}
+
+@layer utilities {
+    .font-display {
+        font-family: 'Playfair Display', Georgia, serif;
+    }
+
+    .font-mono {
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    .bg-grid {
+        background-image:
+            linear-gradient(to right, var(--color-border) 1px, transparent 1px),
+            linear-gradient(to bottom, var(--color-border) 1px, transparent 1px);
+        background-size: 60px 60px;
+    }
+
+    .bg-grid-subtle {
+        background-image:
+            linear-gradient(to right, var(--color-border) 1px, transparent 1px),
+            linear-gradient(to bottom, var(--color-border) 1px, transparent 1px);
+        background-size: 80px 80px;
+        opacity: 0.3;
+    }
+
+    .text-shadow-sm {
+        text-shadow: 0 1px 3px rgba(46, 36, 27, 0.12);
+    }
+
+    .text-shadow-lg {
+        text-shadow: 0 2px 8px rgba(46, 36, 27, 0.22);
+    }
+
+    .ticker-scroll {
+        animation: tickerScroll 30s linear infinite;
+    }
+
+    .ticker-scroll:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes tickerScroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+
+    .card-hover {
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .card-hover:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 40px rgba(51, 38, 28, 0.1);
+        border-color: var(--color-border);
+    }
+
+    .sidebar-icon {
+        @apply flex items-center justify-center w-10 h-10 rounded-xl transition-all duration-200;
+        color: rgba(51, 38, 28, 0.42);
+    }
+
+    .sidebar-icon:hover {
+        color: var(--color-text);
+        background: var(--color-subtle);
+    }
+
+    .sidebar-icon.active {
+        color: var(--color-brand);
+        background: var(--color-brand);
+    }
+
+    .sidebar-icon.active svg {
+        color: var(--color-bg);
+    }
+
+    .side-tooltip {
+        @apply absolute left-full ml-3 px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap;
+        background: rgba(51, 38, 28, 0.95);
+        color: var(--color-bg);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.15s ease;
+    }
+
+    .group:hover .side-tooltip {
+        opacity: 1;
+    }
+
+    /* Cream equivalents for admin chart primitives (warm hairlines) */
+    .chart-grid-line {
+        stroke: rgba(51, 38, 28, 0.08);
+        stroke-width: 1;
+    }
+
+    .gauge-empty {
+        stroke: rgba(51, 38, 28, 0.08);
+        fill: none;
+        stroke-width: 10;
+    }
+
+    .gauge-fill {
+        fill: none;
+        stroke-width: 10;
+        stroke-linecap: round;
+    }
 }

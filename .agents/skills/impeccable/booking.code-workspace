@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../everything-claude-code/.opencode"
+		},
+		{
+			"path": "../../../../everything-claude-code/.agents/skills"
+		}
+	],
+	"settings": {}
+}

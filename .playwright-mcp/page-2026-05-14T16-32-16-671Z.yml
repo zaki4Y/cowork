@@ -1,0 +1,204 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "CoWorkSpace Admin" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+        - generic [ref=e11]: CoWorkSpace
+        - generic [ref=e12]: Admin
+      - generic [ref=e13]:
+        - button "Toggle dark mode" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+        - link "View Site" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+          - text: View Site
+        - generic [ref=e20]:
+          - generic [ref=e21]: A
+          - generic [ref=e22]: Admin
+          - button [ref=e23] [cursor=pointer]:
+            - img [ref=e24]
+  - complementary [ref=e26]:
+    - navigation [ref=e27]:
+      - link "Dashboard" [ref=e28] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin
+        - img [ref=e29]
+        - text: Dashboard
+      - link "Spaces" [ref=e31] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/spaces
+        - img [ref=e32]
+        - text: Spaces
+      - link "Bookings" [ref=e34] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/bookings
+        - img [ref=e35]
+        - text: Bookings
+      - link "Users" [ref=e37] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/users
+        - img [ref=e38]
+        - text: Users
+      - link "Blog" [ref=e40] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/blog
+        - img [ref=e41]
+        - text: Blog
+      - link "Contacts" [ref=e43] [cursor=pointer]:
+        - /url: http://127.0.0.1:8000/admin/contacts
+        - img [ref=e44]
+        - text: Contacts
+  - main [ref=e46]:
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - heading "Spaces" [level=1] [ref=e51]
+          - paragraph [ref=e52]: Manage all coworking spaces.
+        - link "Create New Space" [ref=e53] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/spaces/create
+          - button "Create New Space" [ref=e54]
+      - table [ref=e57]:
+        - rowgroup [ref=e58]:
+          - row "Name Type Capacity Price / Day Status Actions" [ref=e59]:
+            - columnheader "Name" [ref=e60]
+            - columnheader "Type" [ref=e61]
+            - columnheader "Capacity" [ref=e62]
+            - columnheader "Price / Day" [ref=e63]
+            - columnheader "Status" [ref=e64]
+            - columnheader "Actions" [ref=e65]
+        - rowgroup [ref=e66]:
+          - row "sit incidunt minus Virtual Office 18 $100.61 Available Edit Delete" [ref=e67]:
+            - cell "sit incidunt minus" [ref=e68]
+            - cell "Virtual Office" [ref=e69]
+            - cell "18" [ref=e70]
+            - cell "$100.61" [ref=e71]
+            - cell "Available" [ref=e72]:
+              - generic [ref=e73]: Available
+            - cell "Edit Delete" [ref=e74]:
+              - generic [ref=e75]:
+                - link "Edit" [ref=e76] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/spaces/1/edit
+                  - button "Edit" [ref=e77]
+                - button "Delete" [ref=e78] [cursor=pointer]
+          - row "corrupti ipsum maxime Hot Desk 2 $131.07 Available Edit Delete" [ref=e79]:
+            - cell "corrupti ipsum maxime" [ref=e80]
+            - cell "Hot Desk" [ref=e81]
+            - cell "2" [ref=e82]
+            - cell "$131.07" [ref=e83]
+            - cell "Available" [ref=e84]:
+              - generic [ref=e85]: Available
+            - cell "Edit Delete" [ref=e86]:
+              - generic [ref=e87]:
+                - link "Edit" [ref=e88] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/spaces/2/edit
+                  - button "Edit" [ref=e89]
+                - button "Delete" [ref=e90] [cursor=pointer]
+          - row "qui quis minus Virtual Office 4 $84.71 Available Edit Delete" [ref=e91]:
+            - cell "qui quis minus" [ref=e92]
+            - cell "Virtual Office" [ref=e93]
+            - cell "4" [ref=e94]
+            - cell "$84.71" [ref=e95]
+            - cell "Available" [ref=e96]:
+              - generic [ref=e97]: Available
+            - cell "Edit Delete" [ref=e98]:
+              - generic [ref=e99]:
+                - link "Edit" [ref=e100] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/spaces/3/edit
+                  - button "Edit" [ref=e101]
+                - button "Delete" [ref=e102] [cursor=pointer]
+          - row "aspernatur natus aut Hot Desk 12 $38.35 Available Edit Delete" [ref=e103]:
+            - cell "aspernatur natus aut" [ref=e104]
+            - cell "Hot Desk" [ref=e105]
+            - cell "12" [ref=e106]
+            - cell "$38.35" [ref=e107]
+            - cell "Available" [ref=e108]:
+              - generic [ref=e109]: Available
+            - cell "Edit Delete" [ref=e110]:
+              - generic [ref=e111]:
+                - link "Edit" [ref=e112] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/spaces/4/edit
+                  - button "Edit" [ref=e113]
+                - button "Delete" [ref=e114] [cursor=pointer]
+          - row "amet voluptas voluptatibus Hot Desk 3 $78.14 Available Edit Delete" [ref=e115]:
+            - cell "amet voluptas voluptatibus" [ref=e116]
+            - cell "Hot Desk" [ref=e117]
+            - cell "3" [ref=e118]
+            - cell "$78.14" [ref=e119]
+            - cell "Available" [ref=e120]:
+              - generic [ref=e121]: Available
+            - cell "Edit Delete" [ref=e122]:
+              - generic [ref=e123]:
+                - link "Edit" [ref=e124] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/spaces/5/edit
+                  - button "Edit" [ref=e125]
+                - button "Delete" [ref=e126] [cursor=pointer]
+          - row "velit ducimus et Hot Desk 11 $122.18 Available Edit Delete" [ref=e127]:
+            - cell "velit ducimus et" [ref=e128]
+            - cell "Hot Desk" [ref=e129]
+            - cell "11" [ref=e130]
+            - cell "$122.18" [ref=e131]
+            - cell "Available" [ref=e132]:
+              - generic [ref=e133]: Available
+            - cell "Edit Delete" [ref=e134]:
+              - generic [ref=e135]:
+                - link "Edit" [ref=e136] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/spaces/6/edit
+                  - button "Edit" [ref=e137]
+                - button "Delete" [ref=e138] [cursor=pointer]
+          - row "itaque velit aut Virtual Office 2 $212.35 Available Edit Delete" [ref=e139]:
+            - cell "itaque velit aut" [ref=e140]
+            - cell "Virtual Office" [ref=e141]
+            - cell "2" [ref=e142]
+            - cell "$212.35" [ref=e143]
+            - cell "Available" [ref=e144]:
+              - generic [ref=e145]: Available
+            - cell "Edit Delete" [ref=e146]:
+              - generic [ref=e147]:
+                - link "Edit" [ref=e148] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/spaces/7/edit
+                  - button "Edit" [ref=e149]
+                - button "Delete" [ref=e150] [cursor=pointer]
+          - row "totam rem voluptas Meeting Room 19 $87.41 Available Edit Delete" [ref=e151]:
+            - cell "totam rem voluptas" [ref=e152]
+            - cell "Meeting Room" [ref=e153]
+            - cell "19" [ref=e154]
+            - cell "$87.41" [ref=e155]
+            - cell "Available" [ref=e156]:
+              - generic [ref=e157]: Available
+            - cell "Edit Delete" [ref=e158]:
+              - generic [ref=e159]:
+                - link "Edit" [ref=e160] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/spaces/8/edit
+                  - button "Edit" [ref=e161]
+                - button "Delete" [ref=e162] [cursor=pointer]
+          - row "at quis impedit Hot Desk 15 $173.69 Available Edit Delete" [ref=e163]:
+            - cell "at quis impedit" [ref=e164]
+            - cell "Hot Desk" [ref=e165]
+            - cell "15" [ref=e166]
+            - cell "$173.69" [ref=e167]
+            - cell "Available" [ref=e168]:
+              - generic [ref=e169]: Available
+            - cell "Edit Delete" [ref=e170]:
+              - generic [ref=e171]:
+                - link "Edit" [ref=e172] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/spaces/9/edit
+                  - button "Edit" [ref=e173]
+                - button "Delete" [ref=e174] [cursor=pointer]
+          - row "totam non dolorem Meeting Room 7 $178.49 Available Edit Delete" [ref=e175]:
+            - cell "totam non dolorem" [ref=e176]
+            - cell "Meeting Room" [ref=e177]
+            - cell "7" [ref=e178]
+            - cell "$178.49" [ref=e179]
+            - cell "Available" [ref=e180]:
+              - generic [ref=e181]: Available
+            - cell "Edit Delete" [ref=e182]:
+              - generic [ref=e183]:
+                - link "Edit" [ref=e184] [cursor=pointer]:
+                  - /url: http://127.0.0.1:8000/admin/spaces/10/edit
+                  - button "Edit" [ref=e185]
+                - button "Delete" [ref=e186] [cursor=pointer]
+      - generic [ref=e187]:
+        - link "« Previous" [ref=e188]:
+          - /url: ""
+        - link "1" [ref=e189] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/spaces?page=1
+        - link "2" [ref=e190] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/spaces?page=2
+        - link "Next »" [ref=e191] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/admin/spaces?page=2

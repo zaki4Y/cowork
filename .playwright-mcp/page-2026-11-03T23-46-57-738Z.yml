@@ -1,0 +1,193 @@
+- generic [ref=f1e3]:
+  - navigation [ref=f1e4]:
+    - generic [ref=f1e6]:
+      - link "Aurelia The Atelier of Work" [ref=f1e7] [cursor=pointer]:
+        - /url: /
+        - text: Aurelia
+        - generic [ref=f1e8]: The Atelier of Work
+      - generic [ref=f1e9]:
+        - link "Spaces" [ref=f1e10] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/spaces
+        - link "Membership" [ref=f1e11] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/pricing
+        - link "About" [ref=f1e12] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/about
+        - link "Journal" [ref=f1e13] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/blog
+      - generic [ref=f1e14]:
+        - link "Sign In" [ref=f1e15] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/login
+        - link "Contact" [ref=f1e16] [cursor=pointer]:
+          - /url: http://127.0.0.1:8000/contact
+  - main [ref=f1e17]:
+    - generic [ref=f1e18]:
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]:
+          - paragraph [ref=f1e21]: Premium Coworking Atelier
+          - heading "Spaces Beyond Ordinary" [level=1] [ref=f1e23]:
+            - generic [ref=f1e24]: Spaces
+            - generic [ref=f1e25]:
+              - emphasis [ref=f1e26]: Beyond
+              - text: Ordinary
+          - paragraph [ref=f1e27]: Quiet rooms, warm light, and the calm luxury of a place designed around the way you work.
+          - generic [ref=f1e28]:
+            - link [ref=f1e29] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/spaces
+              - button "Explore Spaces" [ref=f1e30]
+            - link "View Membership" [ref=f1e33] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/pricing
+        - generic [ref=f1e35]:
+          - img "The Aurelia lounge — sunlit coworking with warm timber and linen" [ref=f1e36]
+          - generic [ref=f1e37]:
+            - paragraph [ref=f1e38]: The Aurelia Lounge, Tech City
+            - paragraph [ref=f1e39]: Est. 2020
+      - generic [ref=f1e41]:
+        - generic [ref=f1e42]:
+          - paragraph [ref=f1e43]: Proven Excellence
+          - heading [level=2] [ref=f1e45]:
+            - text: Built on
+            - emphasis [ref=f1e46]: trust
+            - text: ", not noise"
+          - paragraph [ref=f1e47]: A decade of quiet hospitality, long-term members, and spaces that earn their reputation one considered detail at a time.
+        - generic [ref=f1e48]:
+          - generic [ref=f1e49]:
+            - generic [ref=f1e50]:
+              - generic [ref=f1e51]: 0+
+              - paragraph [ref=f1e53]: Years of Craft
+            - generic [ref=f1e58]:
+              - paragraph [ref=f1e59]: Aurelia Choice
+              - paragraph [ref=f1e60]: Design-Led Workspace of the Year
+          - img "Aurelia interior corridor with glass-walled meeting rooms" [ref=f1e63]
+          - generic [ref=f1e64]:
+            - generic [ref=f1e65]:
+              - generic [ref=f1e66]: 0%
+              - paragraph [ref=f1e68]: Member Satisfaction
+            - generic [ref=f1e69]:
+              - generic [ref=f1e70]:
+                - generic [ref=f1e71]: 0+
+                - paragraph [ref=f1e73]: Spaces
+              - generic [ref=f1e74]:
+                - generic [ref=f1e75]: 0+
+                - paragraph [ref=f1e77]: Members
+      - generic [ref=f1e79]:
+        - generic [ref=f1e81]:
+          - generic [ref=f1e82]:
+            - paragraph [ref=f1e83]: Signature Spaces
+            - heading [level=2] [ref=f1e85]:
+              - text: The
+              - emphasis [ref=f1e86]: Aurelia
+              - text: Collection
+          - link "View all spaces" [ref=f1e87] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces
+        - generic [ref=f1e88]:
+          - link [ref=f1e90] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/1
+            - img "The Corner Desk" [ref=f1e92]
+            - paragraph [ref=f1e93]: Private Office · Tech City
+            - heading "The Corner Desk" [level=3] [ref=f1e94]
+            - paragraph [ref=f1e95]: $293.20 / day
+          - link [ref=f1e97] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/2
+            - img "Skyline Office" [ref=f1e99]
+            - paragraph [ref=f1e100]: Virtual Office · Tech City
+            - heading "Skyline Office" [level=3] [ref=f1e101]
+            - paragraph [ref=f1e102]: $42.96 / day
+          - link [ref=f1e104] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/3
+            - img "The Hive" [ref=f1e106]
+            - paragraph [ref=f1e107]: Hot Desk · Tech City
+            - heading "The Hive" [level=3] [ref=f1e108]
+            - paragraph [ref=f1e109]: $30.54 / day
+          - link [ref=f1e111] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces/4
+            - img "Boardroom A" [ref=f1e113]
+            - paragraph [ref=f1e114]: Virtual Office · Tech City
+            - heading "Boardroom A" [level=3] [ref=f1e115]
+            - paragraph [ref=f1e116]: $68.69 / day
+      - generic [ref=f1e118]:
+        - blockquote [ref=f1e121]: “Aurelia transformed how my team works. The spaces are beautiful, the community is genuine, and the flexibility is exactly what we needed.”
+        - paragraph [ref=f1e122]: Sarah Chen
+        - paragraph [ref=f1e123]: Product Designer, Nomad Studio
+      - generic [ref=f1e125]:
+        - generic [ref=f1e127]:
+          - generic [ref=f1e128]:
+            - paragraph [ref=f1e129]: Journal
+            - heading [level=2] [ref=f1e131]:
+              - text: Notes from
+              - emphasis [ref=f1e132]: the atelier
+          - link "All articles" [ref=f1e133] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog
+        - generic [ref=f1e134]:
+          - link "Designing Workspaces for Creativity and Focus Neuroscience shows that your physical environment shapes how you think. Discover the science behind workspace design that boosts both creativity and focus. Admin May 7, 2026" [ref=f1e136] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog/4
+            - heading "Designing Workspaces for Creativity and Focus" [level=3] [ref=f1e137]
+            - paragraph [ref=f1e138]: Neuroscience shows that your physical environment shapes how you think. Discover the science behind workspace design that boosts both creativity and focus.
+            - generic [ref=f1e139]:
+              - generic [ref=f1e140]: Admin
+              - generic [ref=f1e142]: May 7, 2026
+          - 'link "Networking in Coworking Spaces: A Beginner''s Guide Walking into a room full of strangers can be intimidating. Learn how to turn casual coworking encounters into meaningful professional relationships. Admin May 7, 2026" [ref=f1e144] [cursor=pointer]':
+            - /url: http://127.0.0.1:8000/blog/5
+            - 'heading "Networking in Coworking Spaces: A Beginner''s Guide" [level=3] [ref=f1e145]'
+            - paragraph [ref=f1e146]: Walking into a room full of strangers can be intimidating. Learn how to turn casual coworking encounters into meaningful professional relationships.
+            - generic [ref=f1e147]:
+              - generic [ref=f1e148]: Admin
+              - generic [ref=f1e150]: May 7, 2026
+          - link "How to Choose the Right Workspace for Your Team Choosing a workspace is one of the most impactful decisions for your team culture. Here is a practical framework to find the perfect fit. Admin Apr 24, 2026" [ref=f1e152] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/blog/3
+            - heading "How to Choose the Right Workspace for Your Team" [level=3] [ref=f1e153]
+            - paragraph [ref=f1e154]: Choosing a workspace is one of the most impactful decisions for your team culture. Here is a practical framework to find the perfect fit.
+            - generic [ref=f1e155]:
+              - generic [ref=f1e156]: Admin
+              - generic [ref=f1e158]: Apr 24, 2026
+      - generic [ref=f1e161]:
+        - paragraph [ref=f1e162]: The Atelier Awaits
+        - heading [level=2] [ref=f1e164]:
+          - text: Come work
+          - emphasis [ref=f1e165]: beautifully
+        - paragraph [ref=f1e166]: Book a tour, take a day pass, or become a resident member. No commitment required.
+        - generic [ref=f1e167]:
+          - link [ref=f1e168] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces
+            - button "Explore Spaces" [ref=f1e169]
+          - link "Book a Tour" [ref=f1e170] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/contact
+  - contentinfo [ref=f1e171]:
+    - generic [ref=f1e172]:
+      - generic [ref=f1e173]:
+        - generic [ref=f1e174]:
+          - generic [ref=f1e175]:
+            - text: Aurelia
+            - paragraph [ref=f1e176]: The Atelier of Work
+          - paragraph [ref=f1e177]: Considered spaces for considered work. Quiet rooms, warm light, and the calm luxury of a place designed around you.
+          - generic [ref=f1e178]:
+            - generic [ref=f1e179] [cursor=pointer]
+            - generic [ref=f1e182] [cursor=pointer]
+            - generic [ref=f1e185] [cursor=pointer]
+        - generic [ref=f1e188]:
+          - heading "Explore" [level=4] [ref=f1e189]
+          - generic [ref=f1e190]:
+            - link "Spaces" [ref=f1e191] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/spaces
+            - link "Membership" [ref=f1e192] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/pricing
+            - link "About" [ref=f1e193] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/about
+            - link "Journal" [ref=f1e194] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/blog
+        - generic [ref=f1e195]:
+          - heading "House" [level=4] [ref=f1e196]
+          - generic [ref=f1e197]:
+            - link "Contact" [ref=f1e198] [cursor=pointer]:
+              - /url: http://127.0.0.1:8000/contact
+            - generic [ref=f1e199]: FAQs
+            - generic [ref=f1e200]: Privacy Policy
+            - generic [ref=f1e201]: Terms of Service
+        - generic [ref=f1e202]:
+          - heading "Contact" [level=4] [ref=f1e203]
+          - generic [ref=f1e204]:
+            - paragraph [ref=f1e205]: hello@aurelia.studio
+            - paragraph [ref=f1e208]: +1 (555) 123-4567
+            - paragraph [ref=f1e211]: 12 Aurelia Court, Tech City
+      - generic [ref=f1e215]:
+        - paragraph [ref=f1e216]: © 2026 Aurelia. All rights reserved.
+        - paragraph [ref=f1e217]: Considered, always

@@ -1,0 +1,19 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "CoWorkSpace" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e12]
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e29]
+      - generic [ref=e50]
+      - generic [ref=e111]
+      - generic [ref=e134]
+      - generic [ref=e145]
+      - generic [ref=e250]
+      - generic [ref=e260]
+  - contentinfo [ref=e296]:
+    - generic [ref=e297]:
+      - generic [ref=e298]
+      - generic [ref=e343]

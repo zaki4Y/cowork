@@ -1,0 +1,41 @@
+- generic [ref=f7e39]:
+  - navigation [ref=f7e40]:
+    - generic [ref=f7e42]:
+      - generic [ref=f7e43]:
+        - link "Aurelia" [ref=f7e44] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f7e45]:
+          - link "Dashboard" [ref=f7e46] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/dashboard
+          - link "My Bookings" [ref=f7e47] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/my-bookings
+      - button "M Member" [ref=f7e50] [cursor=pointer]:
+        - generic [ref=f7e51]: M
+        - generic [ref=f7e52]: Member
+  - heading "Membership" [level=2] [ref=f7e57]
+  - main [ref=f7e58]:
+    - generic [ref=f7e61]:
+      - generic [ref=f7e62]:
+        - heading [level=1] [ref=f7e63]:
+          - text: Welcome back,
+          - emphasis [ref=f7e64]: Member
+        - paragraph [ref=f7e65]: Your room, your reservations, your membership. All in one quiet place.
+      - generic [ref=f7e66]:
+        - generic [ref=f7e68]:
+          - heading "My Bookings" [level=3] [ref=f7e74]
+          - paragraph [ref=f7e75]: View and manage your private bookings
+          - link [ref=f7e77] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/my-bookings
+            - button "View Bookings" [ref=f7e78]
+        - generic [ref=f7e80]:
+          - heading "Profile" [level=3] [ref=f7e86]
+          - paragraph [ref=f7e87]: Update your personal information
+          - link [ref=f7e89] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/profile
+            - button "Edit Profile" [ref=f7e90]
+        - generic [ref=f7e92]:
+          - heading "The Collection" [level=3] [ref=f7e98]
+          - paragraph [ref=f7e99]: Browse every space in the house
+          - link [ref=f7e101] [cursor=pointer]:
+            - /url: http://127.0.0.1:8000/spaces
+            - button "Explore Spaces" [ref=f7e102]
